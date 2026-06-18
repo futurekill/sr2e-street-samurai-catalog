@@ -1,0 +1,61 @@
+{
+  "_id": "4b97c36b83aa5c9c",
+  "name": "Steyr AUG-CSL Carbine",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "7S",
+    "damageType": "physical",
+    "concealability": 3,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": true,
+      "fa": false
+    },
+    "ammo": {
+      "current": 40,
+      "max": 40,
+      "type": "rifle"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 50,
+      "medium": 150,
+      "long": 350,
+      "extreme": 550
+    },
+    "strengthMin": 0,
+    "weight": 3.75,
+    "cost": 4500,
+    "availability": "10/4 days",
+    "legality": "Restricted",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Carbine configuration of the AUG-CSL. Part of the modular Steyr AUG-CSL system; the full package with all listed accessories is 4,500¥. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4b97c36b83aa5c9c"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "cc21b84f17be64ef",
+  "name": "Walther MA-2100",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "14S",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 10,
+      "max": 10,
+      "type": "rifle"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 50,
+      "medium": 350,
+      "long": 800,
+      "extreme": 1500
+    },
+    "strengthMin": 0,
+    "weight": 4.5,
+    "cost": 6500,
+    "availability": "12/7 days",
+    "legality": "Restricted",
+    "streetIndex": "4",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Semi-automatic sniper rifle. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!cc21b84f17be64ef"
+}

@@ -1,0 +1,61 @@
+{
+  "_id": "a4d0af9626f3d0d8",
+  "name": "Steyr AUG-CSL LMG",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "heavy",
+    "skill": "heavy_weapons",
+    "damageCode": "8M",
+    "damageType": "physical",
+    "concealability": 99,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": true,
+      "fa": true
+    },
+    "ammo": {
+      "current": 40,
+      "max": 40,
+      "type": "rifle"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 50,
+      "medium": 150,
+      "long": 350,
+      "extreme": 550
+    },
+    "strengthMin": 0,
+    "weight": 0,
+    "cost": 4500,
+    "availability": "10/4 days",
+    "legality": "Restricted",
+    "streetIndex": "3",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Light-machine-gun configuration of the AUG-CSL; weight not listed in the table. Part of the modular Steyr AUG-CSL system; the full package with all listed accessories is 4,500¥. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a4d0af9626f3d0d8"
+}
