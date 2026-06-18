@@ -1,17 +1,17 @@
 {
-  "_id": "63f00903fba972b9",
-  "name": "Commlink VIII",
+  "_id": "d89fb9033f7cf29b",
+  "name": "Scramble Breaker HD",
   "type": "cyberware",
   "img": "icons/svg/upgrade.svg",
   "system": {
     "location": "headware",
     "grade": "standard",
-    "essenceCost": 0.3,
-    "rating": 0,
-    "cost": 40000,
-    "availability": "4/48 hrs",
+    "essenceCost": 0.2,
+    "rating": 1,
+    "cost": 20000,
+    "availability": "6/48 hrs",
     "streetIndex": "1.5",
-    "legality": "Restricted",
+    "legality": "Forbidden",
     "installed": false,
     "combatTnMod": 0,
     "isVcr": false,
@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "High-end headware radio/comm transceiver, Rating VIII. SSC."
+    "notes": "Headware decryption (Rating 1–8). Cost = Rating × 20,000¥ (R1–4), × 40,000¥ (R5–7), 800,000¥ flat (R8). SSC."
   },
   "effects": [],
   "flags": {},
@@ -45,5 +45,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!63f00903fba972b9"
+  "_key": "!items!d89fb9033f7cf29b"
 }

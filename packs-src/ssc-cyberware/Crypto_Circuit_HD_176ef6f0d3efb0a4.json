@@ -1,16 +1,16 @@
 {
-  "_id": "63f00903fba972b9",
-  "name": "Commlink VIII",
+  "_id": "176ef6f0d3efb0a4",
+  "name": "Crypto Circuit HD",
   "type": "cyberware",
   "img": "icons/svg/upgrade.svg",
   "system": {
     "location": "headware",
     "grade": "standard",
-    "essenceCost": 0.3,
-    "rating": 0,
-    "cost": 40000,
-    "availability": "4/48 hrs",
-    "streetIndex": "1.5",
+    "essenceCost": 0.1,
+    "rating": 1,
+    "cost": 10000,
+    "availability": "5/36 hrs",
+    "streetIndex": "1",
     "legality": "Restricted",
     "installed": false,
     "combatTnMod": 0,
@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "High-end headware radio/comm transceiver, Rating VIII. SSC."
+    "notes": "Headware encryption circuit (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC."
   },
   "effects": [],
   "flags": {},
@@ -45,5 +45,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!63f00903fba972b9"
+  "_key": "!items!176ef6f0d3efb0a4"
 }

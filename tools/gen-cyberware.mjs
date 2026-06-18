@@ -42,8 +42,13 @@ const CYBER = [
   { name: "Hearing Amplification", location: "headware", ess: 0.2, cost: 3500, avail: "4/48 hrs", index: 1.25, notes: "Boosts hearing sensitivity. SSC." },
   { name: "Select Sound Filter", location: "headware", ess: 0.2, rating: 1, cost: 10000, avail: "6/48 hrs", index: 1.25, notes: "Filters out unwanted noise (Rating 1–5); cost shown is Rating 1. SSC." },
   // --- HEADWARE: Communications ---
-  { name: "Commlink VIII", location: "headware", ess: 0.3, cost: 40000, avail: "4/48 hrs", index: 1.5, legality: "Restricted", notes: "High-end headware radio/comm transceiver. SSC." },
-  { name: "Commlink X", location: "headware", ess: 0.3, cost: 60000, avail: "5/48 hrs", index: 1.75, legality: "Restricted", notes: "Top-tier headware comm transceiver. SSC." },
+  { name: "Commlink II", location: "headware", ess: 0.3, cost: 8000, avail: "2/48 hrs", index: 1, legality: "Restricted", notes: "Headware radio/comm transceiver, Rating II. SSC." },
+  { name: "Commlink IV", location: "headware", ess: 0.3, cost: 18000, avail: "3/48 hrs", index: 1.25, legality: "Restricted", notes: "Headware comm transceiver, Rating IV. SSC." },
+  { name: "Commlink VIII", location: "headware", ess: 0.3, cost: 40000, avail: "4/48 hrs", index: 1.5, legality: "Restricted", notes: "High-end headware radio/comm transceiver, Rating VIII. SSC." },
+  { name: "Commlink X", location: "headware", ess: 0.3, cost: 60000, avail: "5/48 hrs", index: 1.75, legality: "Restricted", notes: "Top-tier headware comm transceiver, Rating X. SSC." },
+  // --- HEADWARE: Crypto / Scramble ---
+  { name: "Crypto Circuit HD", location: "headware", ess: 0.1, rating: 1, cost: 10000, avail: "5/36 hrs", index: 1, legality: "Restricted", notes: "Headware encryption circuit (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC." },
+  { name: "Scramble Breaker HD", location: "headware", ess: 0.2, rating: 1, cost: 20000, avail: "6/48 hrs", index: 1.5, legality: "Forbidden", notes: "Headware decryption (Rating 1–8). Cost = Rating × 20,000¥ (R1–4), × 40,000¥ (R5–7), 800,000¥ flat (R8). SSC." },
   // --- INTERNALS ---
   { name: "Internal Voice Mask", location: "internals", ess: 0.1, cost: 7000, avail: "6/48 hrs", index: 1, notes: "Alters the user's voice to defeat voiceprint identification. SSC." },
   { name: "Sense Link", location: "internals", ess: 2.0, cost: 300000, avail: "2/5 days", index: 1, legality: "Restricted", notes: "Broadcasts or receives full sensory input (simsense link). SSC." },

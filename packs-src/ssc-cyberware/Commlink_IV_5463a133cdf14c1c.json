@@ -1,6 +1,6 @@
 {
-  "_id": "63f00903fba972b9",
-  "name": "Commlink VIII",
+  "_id": "5463a133cdf14c1c",
+  "name": "Commlink IV",
   "type": "cyberware",
   "img": "icons/svg/upgrade.svg",
   "system": {
@@ -8,9 +8,9 @@
     "grade": "standard",
     "essenceCost": 0.3,
     "rating": 0,
-    "cost": 40000,
-    "availability": "4/48 hrs",
-    "streetIndex": "1.5",
+    "cost": 18000,
+    "availability": "3/48 hrs",
+    "streetIndex": "1.25",
     "legality": "Restricted",
     "installed": false,
     "combatTnMod": 0,
@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "High-end headware radio/comm transceiver, Rating VIII. SSC."
+    "notes": "Headware comm transceiver, Rating IV. SSC."
   },
   "effects": [],
   "flags": {},
@@ -45,5 +45,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!63f00903fba972b9"
+  "_key": "!items!5463a133cdf14c1c"
 }
