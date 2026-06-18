@@ -26,5 +26,14 @@ Built batched by category against the `sr2e` system's item types.
   Assault Cannon. Plus the SAM (guided missile). Stats from the pg-103 summary
   table (Panther cost confirmed from its pg-055 body entry).
 
+### Gear (`ssc-gear`, 12)
+- Weapon accessories: bow accessory mount, weapon-mount rangefinder, grenade
+  link, improved gas-vents II–IV, improved & deluxe gyro mounts, ultrasound
+  sight. Recoil-comp values are wired to the system's accessory mechanics; mount
+  / concealability-modifier / street index are recorded in notes.
+- Vision: ultrasound goggles. Explosives: flash grenade, flash-pak.
+- (APDS ammo is already shipped in the system's core pack, sourced from the
+  same catalog, so it isn't duplicated here.)
+
 ### In progress
-- Ammunition, weapon accessories, explosives, and armor (next batches).
+- Armor, then pistols/SMGs/melee/projectile weapons (next batches).

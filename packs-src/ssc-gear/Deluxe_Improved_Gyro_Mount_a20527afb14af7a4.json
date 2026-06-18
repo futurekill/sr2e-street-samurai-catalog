@@ -1,0 +1,42 @@
+{
+  "_id": "a20527afb14af7a4",
+  "name": "Deluxe Improved Gyro Mount",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "accessories",
+    "rating": 7,
+    "quantity": 1,
+    "weight": 7,
+    "cost": 7800,
+    "availability": "6/48 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": true,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 7,
+    "requiresSmartgun": false,
+    "notes": "Heavy under-barrel gyro stabilizer (RC 7). Concealability −7. Street Index 1. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a20527afb14af7a4"
+}

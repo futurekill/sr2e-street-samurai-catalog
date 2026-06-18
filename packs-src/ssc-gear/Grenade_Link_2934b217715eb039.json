@@ -1,0 +1,42 @@
+{
+  "_id": "2934b217715eb039",
+  "name": "Grenade Link",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "accessories",
+    "rating": 1,
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 750,
+    "availability": "6/48 hrs",
+    "legality": "Restricted",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": true,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 0,
+    "requiresSmartgun": false,
+    "notes": "Smartlink-style targeting link for grenade launchers (Rating 1). Street Index 2. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2934b217715eb039"
+}

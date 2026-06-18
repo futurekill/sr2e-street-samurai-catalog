@@ -1,0 +1,42 @@
+{
+  "_id": "a9150aafd4a241e5",
+  "name": "Improved Gas-Vent II",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "category": "accessories",
+    "rating": 2,
+    "quantity": 1,
+    "weight": 0.25,
+    "cost": 550,
+    "availability": "2/24 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "concealability": 0,
+    "weaponAccessory": true,
+    "linkedWeaponId": "",
+    "combatTnMod": 0,
+    "accessoryRecoilComp": 2,
+    "requiresSmartgun": false,
+    "notes": "Barrel-mounted gas-vent recoil compensator (RC 2). Street Index 0.9. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a9150aafd4a241e5"
+}
