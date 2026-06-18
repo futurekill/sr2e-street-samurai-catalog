@@ -1,0 +1,49 @@
+{
+  "_id": "25ca9e8f704b29de",
+  "name": "Cybergun (Submachine Gun)",
+  "type": "cyberware",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "location": "bodyware",
+    "grade": "standard",
+    "essenceCost": 0,
+    "rating": 0,
+    "cost": 1800,
+    "availability": "8/7 days",
+    "streetIndex": "2",
+    "legality": "Forbidden",
+    "installed": false,
+    "combatTnMod": 0,
+    "isVcr": false,
+    "attributeMods": {
+      "body": 0,
+      "quickness": 0,
+      "strength": 0,
+      "charisma": 0,
+      "intelligence": 0,
+      "willpower": 0,
+      "reaction": 0,
+      "initiativeDice": 0
+    },
+    "notes": "Implanted SMG. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!25ca9e8f704b29de"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "957522f811e4b7e9",
+  "name": "Skill Hardwire (Rating 5–6)",
+  "type": "cyberware",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "location": "bodyware",
+    "grade": "standard",
+    "essenceCost": 0.25,
+    "rating": 5,
+    "cost": 50000,
+    "availability": "12/14 days",
+    "streetIndex": "1.5",
+    "legality": "Restricted",
+    "installed": false,
+    "combatTnMod": 0,
+    "isVcr": false,
+    "attributeMods": {
+      "body": 0,
+      "quickness": 0,
+      "strength": 0,
+      "charisma": 0,
+      "intelligence": 0,
+      "willpower": 0,
+      "reaction": 0,
+      "initiativeDice": 0
+    },
+    "notes": "Hardwired skill at higher rating; Essence = Rating × 0.25, cost = Rating × 50,000¥ (Rating 5 shown). SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!957522f811e4b7e9"
+}
