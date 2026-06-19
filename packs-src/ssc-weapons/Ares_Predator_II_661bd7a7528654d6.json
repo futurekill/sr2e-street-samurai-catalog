@@ -1,43 +1,43 @@
 {
-  "_id": "be368e93a153a309",
-  "name": "Ranger-X Bow",
+  "_id": "661bd7a7528654d6",
+  "name": "Ares Predator II",
   "type": "weapon",
   "img": "icons/svg/sword.svg",
   "system": {
-    "weaponType": "projectile",
-    "skill": "projectile_weapons",
-    "damageCode": "(Str+4)M",
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "9M",
     "damageType": "physical",
-    "concealability": 2,
+    "concealability": 4,
     "reach": 0,
     "firingModes": {
       "ss": false,
-      "sa": false,
+      "sa": true,
       "bf": false,
       "fa": false
     },
     "ammo": {
-      "current": 0,
-      "max": 0,
-      "type": "arrow"
+      "current": 15,
+      "max": 15,
+      "type": "pistol"
     },
     "recoilComp": 0,
     "smartgunCompatible": false,
     "ranges": {
-      "short": 10,
-      "medium": 30,
-      "long": 60,
-      "extreme": 90
+      "short": 5,
+      "medium": 20,
+      "long": 40,
+      "extreme": 60
     },
-    "strengthMin": 2,
-    "weight": 1.5,
-    "cost": 120,
-    "availability": "5/36 hrs",
-    "legality": "Legal",
-    "streetIndex": "2",
+    "strengthMin": 0,
+    "weight": 2.5,
+    "cost": 550,
+    "availability": "4/24 hrs",
+    "legality": "Restricted",
+    "streetIndex": "0.5",
     "equipped": false,
     "accessories": [],
-    "notes": "Compound hunting bow; minimum Strength 2, +1 Str per extra rating. Cost is 120¥ × Strength rating. SSC."
+    "notes": "Heavy pistol. SSC."
   },
   "effects": [],
   "flags": {},
@@ -57,5 +57,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!be368e93a153a309"
+  "_key": "!items!661bd7a7528654d6"
 }

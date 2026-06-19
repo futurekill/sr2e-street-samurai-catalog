@@ -37,6 +37,14 @@ Built batched by category against the `sr2e` system's item types.
 - (APDS ammo is already shipped in the system's core pack, sourced from the
   same catalog, so it isn't duplicated here.)
 
+### Pistols, SMGs & special weapons (`ssc-weapons` → 46)
+- Pistols: Tiffani Self-Defender (hold-out); Ares Light Fire 70, Beretta 200ST,
+  Ceska vz120, Seco LD-120 (light); Ares Crusader MP, Ceska Black Scorpion
+  (machine); Ares Predator II, Browning Ultra-Power, Colt Manhunter (heavy).
+- SMGs: Beretta Model 70, H&K MP-5TX, Ingram Smartgun, Sandler TMP, SCK Model 100.
+- Special: Narcoject Pistol & Rifle, Net Gun (Medium/Large). From the pg-102
+  pistols/special/SMG summary tables.
+
 ### Melee & projectile weapons (`ssc-weapons` → 27; `ssc-ammo`, 1)
 - Melee: Ares Monosword, Centurion Laser Axe, Combat Axe, Survival Knife,
   AZ-150 Stun Baton, Forearm Snap Blades, Improved Hand Blades, Shock Glove
@@ -53,4 +61,6 @@ Built batched by category against the `sr2e` system's item types.
   notation — see `docs/NEEDS-CAPTURE.md`.
 
 ### In progress
-- Pistols, SMGs, and special weapons (next batch, pg-101/102).
+- The weapon summary tables (pg-100–104) are fully transcribed. Remaining: any
+  non-summary gear sections in the catalog body, and the vehicles question
+  (the catalog has no vehicle stat section).

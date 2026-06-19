@@ -24,6 +24,9 @@ const RANGE = {
   mg:      { short: 50, medium: 150, long: 350, extreme: 550 },
   cannon:  { short: 50, medium: 150, long: 350, extreme: 550 },
   bow:     { short: 10, medium: 30,  long: 60,  extreme: 90 },
+  pistolL: { short: 5,  medium: 15,  long: 30,  extreme: 50 },
+  pistolH: { short: 5,  medium: 20,  long: 40,  extreme: 60 },
+  smg:     { short: 10, medium: 40,  long: 80,  extreme: 150 },
   none:    { short: 0,  medium: 0,   long: 0,   extreme: 0 }
 };
 
@@ -101,7 +104,32 @@ const WEAPONS = [
   { name: "Improved Hand Blades", kind: "melee", skill: "unarmed_combat", conceal: 99, reach: 0, dmg: "(Str+2)L", wt: 0, avail: "6/72 hrs", cost: 8500, index: 1, legality: "Forbidden", notes: "Retractable cyber-implant hand blades; +8,500¥ implant. SSC." },
   { name: "Shock Glove", kind: "melee", skill: "unarmed_combat", conceal: 9, reach: 0, dmg: "7S", stun: true, wt: 0.5, avail: "5/48 hrs", cost: 950, index: 2, legality: "Restricted", notes: "Electrified glove (7S Stun). SSC." },
   // --- PROJECTILE ---
-  { name: "Ranger-X Bow", kind: "projectile", conceal: 2, reach: 0, dmg: "(Str+4)M", wt: 1.5, strMin: 2, avail: "5/36 hrs", cost: 120, index: 2, legality: "Legal", notes: "Compound hunting bow; minimum Strength 2, +1 Str per extra rating. Cost is 120¥ × Strength rating. SSC." }
+  { name: "Ranger-X Bow", kind: "projectile", conceal: 2, reach: 0, dmg: "(Str+4)M", wt: 1.5, strMin: 2, avail: "5/36 hrs", cost: 120, index: 2, range: "bow", legality: "Legal", notes: "Compound hunting bow; minimum Strength 2, +1 Str per extra rating. Cost is 120¥ × Strength rating. SSC." },
+  // --- PISTOLS: Hold-Out ---
+  { name: "Tiffani Self-Defender", conceal: 8, ammo: 4, ammoType: "pistol", mode: "SS", dmg: "4L", wt: 0.5, avail: "2/12 hrs", cost: 450, index: 0.75, range: "pistolL", legality: "Legal", notes: "Hold-out pistol. SSC." },
+  // --- PISTOLS: Light ---
+  { name: "Ares Light Fire 70", conceal: 5, ammo: 16, ammoType: "pistol", mode: "SA", dmg: "6L", wt: 1, avail: "3/12 hrs", cost: 475, index: 0.8, range: "pistolL", legality: "Legal", notes: "Light pistol. SSC." },
+  { name: "Beretta 200ST", conceal: 4, ammo: 26, ammoType: "pistol", mode: "SA/BF", dmg: "6L", wt: 2, avail: "5/24 hrs", cost: 750, index: 1.5, range: "pistolL", legality: "Restricted", notes: "Light pistol; can fire one burst per Complex Action. SSC." },
+  { name: "Ceska vz120", conceal: 7, ammo: 18, ammoType: "pistol", mode: "SA", dmg: "6L", wt: 1, avail: "3/12 hrs", cost: 500, index: 0.8, range: "pistolL", legality: "Legal", notes: "Light pistol. SSC." },
+  { name: "Seco LD-120", conceal: 5, ammo: 12, ammoType: "pistol", mode: "SA", dmg: "6L", wt: 1, avail: "3/12 hrs", cost: 400, index: 0.8, range: "pistolL", legality: "Legal", notes: "Light pistol. SSC." },
+  // --- PISTOLS: Machine Pistols ---
+  { name: "Ares Crusader MP", conceal: 6, ammo: 40, ammoType: "pistol", mode: "SA/BF", dmg: "6L", wt: 3.25, avail: "5/36 hrs", cost: 950, index: 2, range: "pistolL", legality: "Restricted", notes: "Machine pistol. SSC." },
+  { name: "Ceska Black Scorpion", conceal: 5, ammo: 35, ammoType: "pistol", mode: "SA/BF", dmg: "6L", wt: 3, avail: "5/36 hrs", cost: 850, index: 2, range: "pistolL", legality: "Restricted", notes: "Machine pistol. SSC." },
+  // --- PISTOLS: Heavy ---
+  { name: "Ares Predator II", conceal: 4, ammo: 15, ammoType: "pistol", mode: "SA", dmg: "9M", wt: 2.5, avail: "4/24 hrs", cost: 550, index: 0.5, range: "pistolH", legality: "Restricted", notes: "Heavy pistol. SSC." },
+  { name: "Browning Ultra-Power", conceal: 6, ammo: 10, ammoType: "pistol", mode: "SA", dmg: "9M", wt: 2.25, avail: "4/24 hrs", cost: 525, index: 1.5, range: "pistolH", legality: "Restricted", notes: "Heavy pistol. SSC." },
+  { name: "Colt Manhunter", conceal: 5, ammo: 16, ammoType: "pistol", mode: "SA", dmg: "9M", wt: 2.5, avail: "4/24 hrs", cost: 425, index: 1, range: "pistolH", legality: "Restricted", notes: "Heavy pistol. SSC." },
+  // --- SPECIAL WEAPONS ---
+  { name: "Narcoject Pistol", conceal: 7, ammo: 5, ammoType: "dart", mode: "SA", dmg: "Special", wt: 1.5, avail: "6/2 days", cost: 600, index: 2, range: "pistolL", legality: "Restricted", notes: "Fires narcoject toxin darts; damage/effect per the loaded toxin. SSC." },
+  { name: "Narcoject Rifle", conceal: 4, ammo: 10, ammoType: "dart", mode: "SA", dmg: "Special", wt: 3.25, avail: "8/2 days", cost: 1700, index: 2, range: "assault", legality: "Restricted", notes: "Long-range narcoject dart rifle; damage/effect per the loaded toxin. SSC." },
+  { name: "Net Gun (Medium)", conceal: 4, ammo: 4, ammoType: "net", mode: "SA", dmg: "Special", wt: 4, avail: "8/36 hrs", cost: 750, index: 2, range: "pistolL", legality: "Restricted", notes: "Fires an entangling net (medium). SSC." },
+  { name: "Net Gun (Large)", conceal: 3, ammo: 4, ammoType: "net", mode: "SA", dmg: "Special", wt: 4.5, avail: "8/36 hrs", cost: 1150, index: 2, range: "pistolL", legality: "Restricted", notes: "Fires an entangling net (large). SSC." },
+  // --- SUBMACHINE GUNS ---
+  { name: "Beretta Model 70", conceal: 3, ammo: 35, ammoType: "smg", mode: "BF/FA", dmg: "6M", wt: 3.75, avail: "5/3 days", cost: 900, index: 1, range: "smg", legality: "Restricted", notes: "Submachine gun. SSC." },
+  { name: "Heckler & Koch MP-5TX", conceal: 5, ammo: 20, ammoType: "smg", mode: "SA/BF/FA", dmg: "6M", wt: 3.25, avail: "5/36 hrs", cost: 850, index: 1, range: "smg", legality: "Restricted", notes: "Submachine gun. SSC." },
+  { name: "Ingram Smartgun", conceal: 5, ammo: 32, ammoType: "smg", mode: "BF/FA", dmg: "7M", wt: 3, avail: "4/24 hrs", cost: 950, index: 1, range: "smg", legality: "Restricted", smart: true, notes: "Submachine gun with integral smartgun system. SSC." },
+  { name: "Sandler TMP", conceal: 4, ammo: 20, ammoType: "smg", mode: "BF/FA", dmg: "6M", wt: 3.25, avail: "5/36 hrs", cost: 500, index: 1, range: "smg", legality: "Restricted", notes: "Compact submachine gun. SSC." },
+  { name: "SCK Model 100", conceal: 5, ammo: 30, ammoType: "smg", mode: "SA/BF", dmg: "7M", wt: 4.5, avail: "5/36 hrs", cost: 1000, index: 1, range: "smg", legality: "Restricted", notes: "Submachine gun. SSC." }
 ];
 
 let n = 0;

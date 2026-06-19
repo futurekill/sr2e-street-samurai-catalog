@@ -1,43 +1,43 @@
 {
-  "_id": "be368e93a153a309",
-  "name": "Ranger-X Bow",
+  "_id": "3ec249d7d0ed9187",
+  "name": "SCK Model 100",
   "type": "weapon",
   "img": "icons/svg/sword.svg",
   "system": {
-    "weaponType": "projectile",
-    "skill": "projectile_weapons",
-    "damageCode": "(Str+4)M",
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "7M",
     "damageType": "physical",
-    "concealability": 2,
+    "concealability": 5,
     "reach": 0,
     "firingModes": {
       "ss": false,
-      "sa": false,
-      "bf": false,
+      "sa": true,
+      "bf": true,
       "fa": false
     },
     "ammo": {
-      "current": 0,
-      "max": 0,
-      "type": "arrow"
+      "current": 30,
+      "max": 30,
+      "type": "smg"
     },
     "recoilComp": 0,
     "smartgunCompatible": false,
     "ranges": {
       "short": 10,
-      "medium": 30,
-      "long": 60,
-      "extreme": 90
+      "medium": 40,
+      "long": 80,
+      "extreme": 150
     },
-    "strengthMin": 2,
-    "weight": 1.5,
-    "cost": 120,
+    "strengthMin": 0,
+    "weight": 4.5,
+    "cost": 1000,
     "availability": "5/36 hrs",
-    "legality": "Legal",
-    "streetIndex": "2",
+    "legality": "Restricted",
+    "streetIndex": "1",
     "equipped": false,
     "accessories": [],
-    "notes": "Compound hunting bow; minimum Strength 2, +1 Str per extra rating. Cost is 120¥ × Strength rating. SSC."
+    "notes": "Submachine gun. SSC."
   },
   "effects": [],
   "flags": {},
@@ -57,5 +57,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!be368e93a153a309"
+  "_key": "!items!3ec249d7d0ed9187"
 }
