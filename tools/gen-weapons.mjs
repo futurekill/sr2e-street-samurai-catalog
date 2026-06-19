@@ -23,23 +23,34 @@ const RANGE = {
   assault: { short: 25, medium: 100, long: 250, extreme: 500 },
   mg:      { short: 50, medium: 150, long: 350, extreme: 550 },
   cannon:  { short: 50, medium: 150, long: 350, extreme: 550 },
+  bow:     { short: 10, medium: 30,  long: 60,  extreme: 90 },
   none:    { short: 0,  medium: 0,   long: 0,   extreme: 0 }
+};
+
+// weaponType + default skill by kind.
+const KIND = {
+  firearm:    { type: "firearm",    skill: "firearms" },
+  heavy:      { type: "heavy",      skill: "heavy_weapons" },
+  melee:      { type: "melee",      skill: "armed_combat" },
+  projectile: { type: "projectile", skill: "projectile_weapons" }
 };
 
 function weapon(w) {
   const _id = idFor(w.name);
+  const kind = w.kind ?? (w.heavy ? "heavy" : "firearm");
+  const k = KIND[kind];
   return {
     _id, name: w.name, type: "weapon", img: w.img ?? "icons/svg/sword.svg",
     system: {
-      weaponType: w.heavy ? "heavy" : "firearm",
-      skill: w.heavy ? "heavy_weapons" : "firearms",
-      damageCode: w.dmg, damageType: "physical",
-      concealability: w.conceal ?? 99, reach: 0,
-      firingModes: modes(w.mode),
-      ammo: { current: w.ammo ?? 0, max: w.ammo ?? 0, type: w.ammoType ?? "rifle" },
+      weaponType: k.type,
+      skill: w.skill ?? k.skill,
+      damageCode: w.dmg, damageType: w.stun ? "stun" : "physical",
+      concealability: w.conceal ?? 99, reach: w.reach ?? 0,
+      firingModes: modes(w.mode ?? ""),
+      ammo: { current: w.ammo ?? 0, max: w.ammo ?? 0, type: w.ammoType ?? (kind === "projectile" ? "arrow" : "rifle") },
       recoilComp: w.rc ?? 0, smartgunCompatible: w.smart ?? false,
-      ranges: RANGE[w.range ?? "assault"],
-      strengthMin: 0, weight: w.wt ?? 0,
+      ranges: RANGE[w.range ?? (kind === "melee" ? "none" : "assault")],
+      strengthMin: w.strMin ?? 0, weight: w.wt ?? 0,
       cost: w.cost ?? 0, availability: w.avail ?? "", legality: w.legality ?? "Restricted",
       streetIndex: String(w.index ?? ""),
       equipped: false, accessories: [], notes: w.notes ?? ""
@@ -77,7 +88,20 @@ const WEAPONS = [
   { name: "Stoner-Ares M107", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "10S", wt: 12.5, avail: "18/14 days", cost: 5200, index: 3, range: "mg", legality: "Forbidden", notes: "Heavy machine gun, belt-fed. SSC." },
   { name: "Panther Assault Cannon", heavy: true, conceal: 99, ammo: 22, ammoType: "ac", mode: "SS", dmg: "18D", wt: 18, avail: "16/14 days", cost: 7200, index: 2, range: "cannon", legality: "Forbidden", notes: "Man-portable assault cannon firing superplast warheads. SSC (pg-055)." },
   // --- ROCKETS / MISSILES ---
-  { name: "Surface-to-Air Missile (SAM)", heavy: true, conceal: 99, ammo: 1, ammoType: "missile", mode: "SS", dmg: "13D", wt: 1.5, avail: "18/21 days", cost: 2500, index: 4, range: "none", legality: "Forbidden", notes: "Guided surface-to-air missile (Intelligence 4 guidance); uses missile/launcher rules rather than standard range brackets. SSC." }
+  { name: "Surface-to-Air Missile (SAM)", heavy: true, conceal: 99, ammo: 1, ammoType: "missile", mode: "SS", dmg: "13D", wt: 1.5, avail: "18/21 days", cost: 2500, index: 4, range: "none", legality: "Forbidden", notes: "Guided surface-to-air missile (Intelligence 4 guidance); uses missile/launcher rules rather than standard range brackets. SSC." },
+  // --- MELEE: Edged ---
+  { name: "Ares Monosword", kind: "melee", conceal: 3, reach: 1, dmg: "(Str+3)M", wt: 2, avail: "4/24 hrs", cost: 1000, index: 1, legality: "Restricted", notes: "Monofilament-edged sword. SSC." },
+  { name: "Centurion Laser Axe", kind: "melee", conceal: 2, reach: 1, dmg: "(Str)S", wt: 5.2, avail: "6/48 hrs", cost: 3500, index: 2, legality: "Restricted", notes: "Powered laser axe. SSC." },
+  { name: "Combat Axe", kind: "melee", conceal: 2, reach: 2, dmg: "(Str)S", wt: 2, avail: "3/24 hrs", cost: 750, index: 2, legality: "Restricted", notes: "Two-handed combat axe; its reverse thrusting point does (Str+2)L at Reach 0. SSC." },
+  { name: "Survival Knife", kind: "melee", conceal: 6, reach: 0, dmg: "(Str+1)L", wt: 0.75, avail: "3/6 hrs", cost: 450, index: 1, legality: "Legal", notes: "Heavy survival/fighting knife. SSC." },
+  // --- MELEE: Clubs / shock ---
+  { name: "AZ-150 Stun Baton", kind: "melee", conceal: 5, reach: 1, dmg: "8S", stun: true, wt: 1, avail: "3/36 hrs", cost: 1500, index: 2, legality: "Restricted", notes: "Telescoping electrical stun baton (8S Stun). SSC." },
+  // --- MELEE: Hand/forearm (worn — Unarmed) ---
+  { name: "Forearm Snap Blades", kind: "melee", skill: "unarmed_combat", conceal: 7, reach: 0, dmg: "(Str)M", wt: 1.5, avail: "4/48 hrs", cost: 850, index: 2, legality: "Restricted", notes: "Spring-loaded forearm-mounted blades. SSC." },
+  { name: "Improved Hand Blades", kind: "melee", skill: "unarmed_combat", conceal: 99, reach: 0, dmg: "(Str+2)L", wt: 0, avail: "6/72 hrs", cost: 8500, index: 1, legality: "Forbidden", notes: "Retractable cyber-implant hand blades; +8,500¥ implant. SSC." },
+  { name: "Shock Glove", kind: "melee", skill: "unarmed_combat", conceal: 9, reach: 0, dmg: "7S", stun: true, wt: 0.5, avail: "5/48 hrs", cost: 950, index: 2, legality: "Restricted", notes: "Electrified glove (7S Stun). SSC." },
+  // --- PROJECTILE ---
+  { name: "Ranger-X Bow", kind: "projectile", conceal: 2, reach: 0, dmg: "(Str+4)M", wt: 1.5, strMin: 2, avail: "5/36 hrs", cost: 120, index: 2, legality: "Legal", notes: "Compound hunting bow; minimum Strength 2, +1 Str per extra rating. Cost is 120¥ × Strength rating. SSC." }
 ];
 
 let n = 0;

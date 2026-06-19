@@ -37,6 +37,13 @@ Built batched by category against the `sr2e` system's item types.
 - (APDS ammo is already shipped in the system's core pack, sourced from the
   same catalog, so it isn't duplicated here.)
 
+### Melee & projectile weapons (`ssc-weapons` → 27; `ssc-ammo`, 1)
+- Melee: Ares Monosword, Centurion Laser Axe, Combat Axe, Survival Knife,
+  AZ-150 Stun Baton, Forearm Snap Blades, Improved Hand Blades, Shock Glove
+  (worn/forearm pieces default to Unarmed Combat; stun weapons do Stun).
+- Projectile: Ranger-X Bow (+ Ranger-X Arrows in `ssc-ammo`). From the pg-102
+  melee/projectile summary tables.
+
 ### Armor (`ssc-armor`, 14)
 - Clothing/armor: forearm guards, small riot shield, secure clothing/jacket/
   vest/ultra-vest/long coat.
@@ -46,4 +53,4 @@ Built batched by category against the `sr2e` system's item types.
   notation — see `docs/NEEDS-CAPTURE.md`.
 
 ### In progress
-- Pistols/SMGs/melee/projectile weapons (next batches).
+- Pistols, SMGs, and special weapons (next batch, pg-101/102).

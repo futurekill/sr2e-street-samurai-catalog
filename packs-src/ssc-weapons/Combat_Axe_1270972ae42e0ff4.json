@@ -1,0 +1,61 @@
+{
+  "_id": "1270972ae42e0ff4",
+  "name": "Combat Axe",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "weaponType": "melee",
+    "skill": "armed_combat",
+    "damageCode": "(Str)S",
+    "damageType": "physical",
+    "concealability": 2,
+    "reach": 2,
+    "firingModes": {
+      "ss": false,
+      "sa": false,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 0,
+      "max": 0,
+      "type": "rifle"
+    },
+    "recoilComp": 0,
+    "smartgunCompatible": false,
+    "ranges": {
+      "short": 0,
+      "medium": 0,
+      "long": 0,
+      "extreme": 0
+    },
+    "strengthMin": 0,
+    "weight": 2,
+    "cost": 750,
+    "availability": "3/24 hrs",
+    "legality": "Restricted",
+    "streetIndex": "2",
+    "equipped": false,
+    "accessories": [],
+    "notes": "Two-handed combat axe; its reverse thrusting point does (Str+2)L at Reach 0. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!1270972ae42e0ff4"
+}
