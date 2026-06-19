@@ -1,0 +1,37 @@
+{
+  "_id": "67889970b97e9a86",
+  "name": "Secure Long Coat",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 4,
+    "impact": 2,
+    "concealability": 10,
+    "weight": 2,
+    "cost": 650,
+    "availability": "3/24 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Armored long coat. Street Index 0.9. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!67889970b97e9a86"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "8c66d5a6f0fa92db",
+  "name": "Heavy Security Armor",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 7,
+    "impact": 5,
+    "concealability": 99,
+    "weight": 13,
+    "cost": 12000,
+    "availability": "16/14 days",
+    "legality": "Restricted",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Integrated security armor (heavy). Catalog weight listed as \"13 + Body\". Street Index 3. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8c66d5a6f0fa92db"
+}

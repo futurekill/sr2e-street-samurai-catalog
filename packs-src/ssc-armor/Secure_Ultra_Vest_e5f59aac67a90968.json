@@ -1,0 +1,37 @@
+{
+  "_id": "e5f59aac67a90968",
+  "name": "Secure Ultra-Vest",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 3,
+    "impact": 2,
+    "concealability": 14,
+    "weight": 2.5,
+    "cost": 350,
+    "availability": "3/36 hrs",
+    "legality": "Legal",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Heavier concealable vest. Street Index 0.9. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!e5f59aac67a90968"
+}

@@ -35,5 +35,13 @@ Built batched by category against the `sr2e` system's item types.
 - (APDS ammo is already shipped in the system's core pack, sourced from the
   same catalog, so it isn't duplicated here.)
 
+### Armor (`ssc-armor`, 14)
+- Clothing/armor: forearm guards, small riot shield, secure clothing/jacket/
+  vest/ultra-vest/long coat.
+- Form-fitting body armor L1–3 (layers under other armor).
+- Security armor: light/medium/heavy + helmet. From the pg-104 summary table.
+- Open captures: riot shield Impact (illegible); security-armor "+ Body" weight
+  notation — see `docs/NEEDS-CAPTURE.md`.
+
 ### In progress
-- Armor, then pistols/SMGs/melee/projectile weapons (next batches).
+- Pistols/SMGs/melee/projectile weapons (next batches).

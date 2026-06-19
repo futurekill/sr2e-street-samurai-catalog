@@ -1,0 +1,37 @@
+{
+  "_id": "ac70d810e6980d04",
+  "name": "Security Helmet",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "ballistic": 1,
+    "impact": 2,
+    "concealability": 99,
+    "weight": 0,
+    "cost": 250,
+    "availability": "12/14 days",
+    "legality": "Restricted",
+    "equipped": false,
+    "isLayered": false,
+    "notes": "Security armor helmet. Street Index 2. SSC."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1781600000000,
+    "modifiedTime": 1781600000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ac70d810e6980d04"
+}
