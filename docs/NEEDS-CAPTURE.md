@@ -8,10 +8,6 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
 
 ## Open
 
-- **ssc-weapons / GE Vindicator Minigun — weight** — pg-103 LIGHT MACHINE GUNS
-  row; weight cell blank in the scan. Placeholder: `0` (noted in item).
-- **ssc-weapons / Steyr AUG-CSL LMG — weight** — pg-103 LIGHT MACHINE GUNS row;
-  weight cell blank in the scan. Placeholder: `0` (noted in item).
 - **ssc-armor / Riot Shield, Small — impact** — pg-104 CLOTHING AND ARMOR row;
   the Impact cell is blank/illegible in the scan (Ballistic reads 1). Placeholder:
   impact `1` (noted in item). Could be 0 or higher.
@@ -26,3 +22,10 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
 
 - ssc-weapons / Panther Assault Cannon — cost — pg-103 showed only ",200¥";
   confirmed **7,200¥** from the body entry on pg-055.
+- ssc-weapons / Steyr AUG-CSL LMG — weight — body-entry capture: **5.5**.
+- ssc-weapons / GE Vindicator Minigun — weight — body-entry capture: **15**.
+  Same capture also corrected the **cost: 12,500¥** (the pg-103 summary scan had
+  dropped the leading "1", reading as 2,500¥ — same failure as the Panther).
+- ssc-weapons / Steyr AUG-CSL — the body entry lists a 4th config (**SMG**, 6M,
+  conceal 4, 3.5 kg), now added; and gives the **Assault config conceal as 4**
+  (the pg-103 summary read 2) — adopted the body-entry value.

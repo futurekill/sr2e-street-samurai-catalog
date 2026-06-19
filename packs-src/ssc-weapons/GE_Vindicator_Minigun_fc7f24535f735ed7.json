@@ -30,14 +30,14 @@
       "extreme": 550
     },
     "strengthMin": 0,
-    "weight": 0,
-    "cost": 2500,
+    "weight": 15,
+    "cost": 12500,
     "availability": "24/14 days",
     "legality": "Restricted",
     "streetIndex": "2",
     "equipped": false,
     "accessories": [],
-    "notes": "Multi-barrel minigun; weight not listed in the catalog table. SSC."
+    "notes": "Electric multi-barrel minigun; permanent recoil of 15 rounds/Complex Action. Weight & cost from the body entry capture. SSC."
   },
   "effects": [],
   "flags": {},

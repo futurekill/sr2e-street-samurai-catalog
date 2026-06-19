@@ -54,7 +54,8 @@ const AUG = "Part of the modular Steyr AUG-CSL system; the full package with all
 const WEAPONS = [
   // --- RIFLES (Sport) ---
   { name: "Ruger 100", conceal: 2, ammo: 5, ammoType: "rifle", mode: "SA", dmg: "7S", wt: 3.75, avail: "3/24 hrs", cost: 1300, index: 1, range: "sport", legality: "Legal", notes: "Sport hunting rifle. SSC." },
-  { name: "Steyr AUG-CSL Carbine", conceal: 3, ammo: 40, ammoType: "rifle", mode: "SA/BF", dmg: "7S", wt: 3.75, avail: "10/4 days", cost: 4500, index: 3, range: "sport", notes: "Carbine configuration of the AUG-CSL. " + AUG },
+  { name: "Steyr AUG-CSL SMG", conceal: 4, ammo: 40, ammoType: "smg", mode: "SA/BF", dmg: "6M", wt: 3.5, avail: "10/4 days", cost: 4500, index: 3, range: "assault", notes: "SMG configuration of the AUG-CSL. " + AUG },
+  { name: "Steyr AUG-CSL Carbine", conceal: 3, ammo: 40, ammoType: "rifle", mode: "SA/BF", dmg: "7S", wt: 3.75, avail: "10/4 days", cost: 4500, index: 3, range: "sport", notes: "Sporting/carbine configuration of the AUG-CSL. " + AUG },
   // --- RIFLES (Sniper) ---
   { name: "Walther MA-2100", conceal: 99, ammo: 10, ammoType: "rifle", mode: "SA", dmg: "14S", wt: 4.5, avail: "12/7 days", cost: 6500, index: 4, range: "sniper", notes: "Semi-automatic sniper rifle. SSC." },
   // --- SHOTGUNS ---
@@ -64,11 +65,11 @@ const WEAPONS = [
   { name: "Colt M22A2", conceal: 3, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 4.75, avail: "4/3 days", cost: 1600, index: 2, range: "assault", notes: "Assault rifle. SSC." },
   { name: "H&K G12A3", conceal: 2, ammo: 32, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.25, avail: "8/4 days", cost: 2200, index: 3, range: "assault", notes: "Assault rifle. SSC." },
   { name: "Sakal vz 88V", conceal: 2, ammo: 35, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.5, avail: "5/36 hrs", cost: 1800, index: 2, range: "assault", notes: "Assault rifle. SSC." },
-  { name: "Steyr AUG-CSL Assault Rifle", conceal: 2, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 4, avail: "10/4 days", cost: 4500, index: 3, range: "assault", notes: "Assault-rifle configuration of the AUG-CSL. " + AUG },
+  { name: "Steyr AUG-CSL Assault Rifle", conceal: 4, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 4, avail: "10/4 days", cost: 4500, index: 3, range: "assault", notes: "Assault-rifle configuration of the AUG-CSL. " + AUG },
   // --- LIGHT MACHINE GUNS ---
   { name: "Ares MP-LMG", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "BF/FA", dmg: "7S", wt: 7.5, avail: "6/5 days", cost: 2200, index: 2, range: "mg", notes: "Belt-fed light machine gun. SSC." },
-  { name: "GE Vindicator Minigun", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "7S", wt: 0, avail: "24/14 days", cost: 2500, index: 2, range: "mg", notes: "Multi-barrel minigun; weight not listed in the catalog table. SSC." },
-  { name: "Steyr AUG-CSL LMG", heavy: true, conceal: 99, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 0, avail: "10/4 days", cost: 4500, index: 3, range: "mg", notes: "Light-machine-gun configuration of the AUG-CSL; weight not listed in the table. " + AUG },
+  { name: "GE Vindicator Minigun", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "7S", wt: 15, avail: "24/14 days", cost: 12500, index: 2, range: "mg", notes: "Electric multi-barrel minigun; permanent recoil of 15 rounds/Complex Action. Weight & cost from the body entry capture. SSC." },
+  { name: "Steyr AUG-CSL LMG", heavy: true, conceal: 99, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.5, avail: "10/4 days", cost: 4500, index: 3, range: "mg", notes: "Light-machine-gun configuration of the AUG-CSL. " + AUG },
   // --- LASER WEAPONS ---
   { name: "Ares MP Laser", heavy: true, conceal: 99, ammo: 20, ammoType: "powerpack", mode: "SA", dmg: "15M", wt: 30, avail: "NA", cost: 2500000, index: 0, range: "mg", legality: "Forbidden", notes: "Experimental man-portable laser; runs off a 20-shot power pack. Effectively unavailable (2.5 million¥). SSC." },
   // --- HEAVY WEAPONS ---

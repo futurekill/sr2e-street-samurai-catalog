@@ -18,13 +18,15 @@ Built batched by category against the `sr2e` system's item types.
 - Internals: internal voice mask, sense link & video link (+ their transmitters).
 - Bodyware: the six cyberguns, skill hardwires, boosted reflexes.
 
-### Weapons (`ssc-weapons`, 17)
-- Rifles: Ruger 100, Steyr AUG-CSL (carbine/AR/LMG), Walther MA-2100 sniper,
-  Mossberg CMDT & SM-CMDT shotguns, Colt M22A2, H&K G12A3, Sakal vz 88V.
+### Weapons (`ssc-weapons`, 18)
+- Rifles: Ruger 100, Steyr AUG-CSL (SMG/carbine/AR/LMG), Walther MA-2100
+  sniper, Mossberg CMDT & SM-CMDT shotguns, Colt M22A2, H&K G12A3, Sakal vz 88V.
 - Light machine guns: Ares MP-LMG, GE Vindicator Minigun.
 - Laser: Ares MP Laser. Heavy: FN MAG-5 MMG, Stoner-Ares M107, Panther
   Assault Cannon. Plus the SAM (guided missile). Stats from the pg-103 summary
-  table (Panther cost confirmed from its pg-055 body entry).
+  table; the Panther/Vindicator costs and the AUG-CSL weights/configs were
+  confirmed or corrected against body-entry captures (the Vindicator's cost is
+  12,500¥ — the summary scan had dropped the leading digit).
 
 ### Gear (`ssc-gear`, 12)
 - Weapon accessories: bow accessory mount, weapon-mount rangefinder, grenade
