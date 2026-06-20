@@ -2,7 +2,13 @@
 
 ## 0.1.1 (in development)
 
-- Dropped the empty `ssc-vehicles` pack (the catalog has no vehicle section).
+- **Vehicles added** (`ssc-vehicles`, 2): the **Suzuki Aurora** racing bike and
+  the **Honda Viking** heavy motorcycle, from the catalog's vehicle section
+  (pg-042/043). NOTE: an earlier 0.1.1 change had dropped this pack on the wrong
+  assumption that the catalog had no vehicles — it has a two-bike section in the
+  body that the back-of-book summary tables omit. Pack restored and populated.
+- **Enriched item descriptions** across the module — original one-line flavor for
+  weapons (46), cyberware (32), and armor (14); stat values unchanged.
 - Cyberware audit against the full pg-104 CYBERTECH table (all 32 rows covered):
   fixed the **Select Sound Filter** cost (10,000¥ → 1,000¥; it's Level × 1,000¥),
   renamed the middle **Skill Hardwire** tier to its book range (5–8, not 5–6),

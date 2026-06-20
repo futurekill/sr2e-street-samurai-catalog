@@ -24,13 +24,14 @@
     { "name": "ssc-ammo",       "label": "SSC Ammunition", "path": "packs/ssc-ammo",       "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "ssc-armor",      "label": "SSC Armor",      "path": "packs/ssc-armor",      "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
     { "name": "ssc-cyberware",  "label": "SSC Cyberware",  "path": "packs/ssc-cyberware",  "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "ssc-gear",       "label": "SSC Gear",       "path": "packs/ssc-gear",       "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    { "name": "ssc-gear",       "label": "SSC Gear",       "path": "packs/ssc-gear",       "type": "Item",  "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "ssc-vehicles",   "label": "SSC Vehicles",   "path": "packs/ssc-vehicles",   "type": "Actor", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
   ],
   "packFolders": [
     {
       "name": "Street Samurai Catalog",
       "sorting": "m",
-      "packs": ["ssc-weapons", "ssc-ammo", "ssc-armor", "ssc-cyberware", "ssc-gear"]
+      "packs": ["ssc-weapons", "ssc-ammo", "ssc-armor", "ssc-cyberware", "ssc-gear", "ssc-vehicles"]
     }
   ],
   "flags": {}

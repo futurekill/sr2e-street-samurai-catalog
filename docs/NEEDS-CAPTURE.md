@@ -12,6 +12,12 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
   the Impact cell is blank/illegible in the scan (Ballistic reads 1). Placeholder:
   impact `1` (noted in item). Could be 0 or higher.
 
+- **ssc-vehicles / Suzuki Aurora, Honda Viking — acceleration** — the catalog's
+  vehicle stat block (pg-042/043) lists Handling, Speed, Body, Armor, Signature,
+  Pilot, and Cost, but **no acceleration** column. Stored as `0`. If acceleration
+  appears elsewhere in the catalog (or you want to assign it), update both.
+  (Also: their token art is a placeholder icon — swap for real vehicle art.)
+
 ## To verify (readable but unusual notation)
 
 - **ssc-armor / Light/Medium/Heavy Security Armor — weight** — pg-104 lists the
