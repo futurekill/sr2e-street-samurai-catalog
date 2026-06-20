@@ -25,7 +25,7 @@ function ammo(a) {
 }
 
 const AMMO = [
-  { name: "Ranger-X Arrows", ammoType: "arrow", qty: 1, cost: 18, notes: "Arrows for the Ranger-X Bow; damage as the bow. 18¥ each. Street Index 1. SSC (pg-102)." }
+  { name: "Ranger-X Arrows", ammoType: "arrow", qty: 1, cost: 18, notes: "Precision-fletched arrows for the Ranger-X Bow — silent, deniable, and recoverable; damage is the bow's. 18¥ each. Street Index 1. SSC (pg-102)." }
 ];
 
 let n = 0;

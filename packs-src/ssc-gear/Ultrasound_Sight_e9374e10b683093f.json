@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Top-mounted ultrasound sight; negates vision-based target modifiers (smoke, darkness) within range. Concealability −2. Street Index 0.8. SSC."
+    "notes": "A top-mounted ultrasound sight that 'sees' through smoke and darkness, negating vision-based target modifiers within range. Concealability −2. Street Index 0.8. SSC."
   },
   "effects": [],
   "flags": {},

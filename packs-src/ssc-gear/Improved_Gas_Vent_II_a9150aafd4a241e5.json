@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 2,
     "requiresSmartgun": false,
-    "notes": "Barrel-mounted gas-vent recoil compensator (RC 2). Street Index 0.9. SSC."
+    "notes": "A barrel-mounted gas-vent that bleeds off muzzle climb for tighter bursts (RC 2). Street Index 0.9. SSC."
   },
   "effects": [],
   "flags": {},

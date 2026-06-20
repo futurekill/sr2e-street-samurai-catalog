@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Flash grenade — Special (blinding/disorienting burst, no damage). Street Index 1. SSC."
+    "notes": "A grenade that detonates in a blinding, disorienting flash instead of shrapnel — Special effect, no damage. Street Index 1. SSC."
   },
   "effects": [],
   "flags": {},

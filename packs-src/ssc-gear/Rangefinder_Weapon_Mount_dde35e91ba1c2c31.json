@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Under-barrel rangefinder for reading distance to target. Street Index 0.8. SSC."
+    "notes": "An under-barrel rangefinder that calls the exact distance to target — steadier shots at long range. Street Index 0.8. SSC."
   },
   "effects": [],
   "flags": {},

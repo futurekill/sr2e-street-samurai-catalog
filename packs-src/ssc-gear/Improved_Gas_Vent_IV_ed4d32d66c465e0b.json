@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 4,
     "requiresSmartgun": false,
-    "notes": "Barrel gas-vent (RC 4). Concealability −2. Street Index 1. SSC."
+    "notes": "The top-grade gas-vent — flattens recoil at the cost of a bulkier muzzle (RC 4). Concealability −2. Street Index 1. SSC."
   },
   "effects": [],
   "flags": {},

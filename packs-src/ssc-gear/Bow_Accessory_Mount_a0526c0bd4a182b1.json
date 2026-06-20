@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Mount that lets a bow carry firearm accessories. Concealability −1. Street Index 0.9. SSC."
+    "notes": "An adapter that lets a bow carry firearm-style accessories like sights and rangefinders. Concealability −1. Street Index 0.9. SSC."
   },
   "effects": [],
   "flags": {},

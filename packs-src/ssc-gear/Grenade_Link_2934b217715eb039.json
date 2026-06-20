@@ -18,7 +18,7 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Smartlink-style targeting link for grenade launchers (Rating 1). Street Index 2. SSC."
+    "notes": "A smartlink-style targeting link for grenade launchers, walking rounds onto the mark (Rating 1). Street Index 2. SSC."
   },
   "effects": [],
   "flags": {},
