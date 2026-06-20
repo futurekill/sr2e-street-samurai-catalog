@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.1 (in development)
+## 0.1.1
 
 - **Vehicles added** (`ssc-vehicles`, 2): the **Suzuki Aurora** racing bike and
   the **Honda Viking** heavy motorcycle, from the catalog's vehicle section
@@ -14,7 +14,7 @@
   renamed the middle **Skill Hardwire** tier to its book range (5–8, not 5–6),
   and corrected the **Crypto Circuit HD** availability to 6/36 hrs.
 
-## 0.1.0 (in development)
+## 0.1.0
 
 Compendium content for the *Street Samurai Catalog* (FASA 7104a), transcribed
 from the catalog's consolidated stat tables (verified against the page renders).
