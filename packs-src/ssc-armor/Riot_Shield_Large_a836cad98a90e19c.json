@@ -1,19 +1,19 @@
 {
-  "_id": "23d2c91d85314e73",
-  "name": "Riot Shield, Small",
+  "_id": "a836cad98a90e19c",
+  "name": "Riot Shield, Large",
   "type": "armor",
   "img": "icons/svg/shield.svg",
   "system": {
-    "ballistic": 1,
+    "ballistic": 2,
     "impact": 0,
     "concealability": 99,
-    "weight": 2,
-    "cost": 1500,
+    "weight": 3,
+    "cost": 3200,
     "availability": "8/14 days",
     "legality": "Restricted",
     "equipped": false,
     "isLayered": false,
-    "notes": "Ares Personal Riot-Security Shield (small, half-body) of clear high-impact plasteel. Its Ballistic stacks with the wearer's worn armor; the carrier also gains a bonus in melee, and bashing with it does (Str+2)L Stun. Street Index 2. SSC."
+    "notes": "Ares Personal Riot-Security Shield (large), designed for riot control and high-threat work. Its Ballistic stacks with the wearer's worn armor; the carrier gains a bonus in melee, and a bash does (Str+2)L Stun. SSC."
   },
   "effects": [],
   "flags": {},
@@ -33,5 +33,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!items!23d2c91d85314e73"
+  "_key": "!items!a836cad98a90e19c"
 }

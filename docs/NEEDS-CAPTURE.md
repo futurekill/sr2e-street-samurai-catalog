@@ -8,9 +8,7 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
 
 ## Open
 
-- **ssc-armor / Riot Shield, Small — impact** — pg-104 CLOTHING AND ARMOR row;
-  the Impact cell is blank/illegible in the scan (Ballistic reads 1). Placeholder:
-  impact `1` (noted in item). Could be 0 or higher.
+- (none)
 
 - **ssc-vehicles / Suzuki Aurora, Honda Viking — acceleration** — the catalog's
   vehicle stat block (pg-042/043) lists Handling, Speed, Body, Armor, Signature,
@@ -20,9 +18,7 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
 
 ## To verify (readable but unusual notation)
 
-- **ssc-armor / Light/Medium/Heavy Security Armor — weight** — pg-104 lists the
-  weight as "9 + Body" / "11 + Body" / "13 + Body". Stored the base number (9/11/13)
-  with the "+ Body" qualifier in notes; confirm that's the intended reading.
+- (none open)
 
 ## Resolved
 
@@ -35,3 +31,9 @@ Format: **pack / item — field** — what's wrong, what I used as a placeholder
 - ssc-weapons / Steyr AUG-CSL — the body entry lists a 4th config (**SMG**, 6M,
   conceal 4, 3.5 kg), now added; and gives the **Assault config conceal as 4**
   (the pg-103 summary read 2) — adopted the body-entry value.
+- ssc-armor / Riot Shield — body-entry capture: the shield has **no Impact stat**
+  (Ballistic only). Small = Ballistic 1 / Impact 0; added the **Large** = Ballistic 2,
+  Weight 3, 3,200¥ (was missing). Impact placeholder removed.
+- ssc-armor / Security Armor "+ Body" weight — body-spread capture confirms the
+  book literally prints "9 + Body" / "11 + Body" / "13 + Body"; stored values are
+  correct.
