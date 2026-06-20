@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Filters out unwanted noise (Levels 1–5); cost = Level × 1,000¥ (Level 1 shown). SSC."
+    "notes": "Lets the user mute gunfire, isolate one voice in a crowd, or scrub a noisy room (Levels 1–5); cost = Level × 1,000¥ (Level 1 shown). SSC."
   },
   "effects": [],
   "flags": {},

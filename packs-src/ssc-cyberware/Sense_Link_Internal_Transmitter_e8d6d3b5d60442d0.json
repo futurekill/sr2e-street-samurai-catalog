@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Built-in transmitter for the Sense Link. SSC."
+    "notes": "A built-in transmitter so the Sense Link can broadcast without any external gear. SSC."
   },
   "effects": [],
   "flags": {},

@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Cybereye rangefinder — reads distance to a target. SSC."
+    "notes": "Paints an exact range on whatever the user looks at — invaluable for the careful shooter. SSC."
   },
   "effects": [],
   "flags": {},
