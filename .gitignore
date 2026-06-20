@@ -5,8 +5,10 @@ package-lock.json
 # planning material only; never committed.
 _work/
 
-# LevelDB write-ahead logs must stay tracked.
-!packs/**/*.log
+# LevelDB compendium packs are a BUILD ARTIFACT regenerated from packs-src/ by
+# `npm run build-packs`. Not tracked (Foundry compacts them every session); the
+# release workflow rebuilds them from packs-src before packaging.
+/packs/
 
 # Re-include assets/icons (the global ~/.gitignore_global "Icon?" rule matches
 # the "icons" dir name case-insensitively on macOS).

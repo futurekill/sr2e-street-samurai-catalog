@@ -30,11 +30,14 @@ transcribing — the same rules-accuracy discipline the system repo uses.
   cyberware `essenceCost`/`rating`; gear `rating`/`weaponAccessory` etc.).
 
 ## Build workflow
-`packs-src/` (per-document JSON) is the source of truth; `packs/` is the LevelDB
-build. `node tools/gen-<category>.mjs` emits JSON, then `npm run build-packs
+`packs-src/` (per-document JSON) is the source of truth and the only tracked
+copy; `packs/` is the LevelDB build, **gitignored** (Foundry compacts it every
+session). `node tools/gen-<category>.mjs` emits JSON, then `npm run build-packs
 [name]`. `tools/build-packs.mjs` / `extract-packs.mjs` are copied from the
-system. `.gitignore` keeps `packs/**/*.log` tracked and re-includes
-`assets/icons/` (the global macOS `Icon?` ignore matches the `icons` dir).
+system. `.gitignore` re-includes `assets/icons/` (the global macOS `Icon?`
+ignore matches the `icons` dir). Releases fire on a `vX.Y.Z` tag push
+(`.github/workflows/release.yml` rebuilds packs from packs-src, then publishes
+the zip + module.json) — they are **not** created per commit.
 
 ## Copyright
 *Street Samurai Catalog* / *Shadowrun* are © FASA and rights holders. Personal
