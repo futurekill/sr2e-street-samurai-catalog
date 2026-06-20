@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2
+
+- **Riot shield corrections** (from a physical-book capture): the riot shield has
+  no Impact stat (Ballistic only) — the small shield's Impact is now 0, and the
+  **Large** riot shield (Ballistic 2, Weight 3, 3,200¥) was added (it was missing).
+- Confirmed the Security Armor "+ Body" weight notation is verbatim from the book.
+  `docs/NEEDS-CAPTURE.md` is now empty — every flagged value is resolved.
+
 ## 0.1.1
 
 - **Vehicles added** (`ssc-vehicles`, 2): the **Suzuki Aurora** racing bike and
