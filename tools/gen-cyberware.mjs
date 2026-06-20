@@ -40,14 +40,14 @@ const CYBER = [
   { name: "Rangefinder", location: "headware", ess: 0.1, cost: 2000, avail: "8/48 hrs", index: 1.5, notes: "Cybereye rangefinder — reads distance to a target. SSC." },
   // --- HEADWARE: Ears ---
   { name: "Hearing Amplification", location: "headware", ess: 0.2, cost: 3500, avail: "4/48 hrs", index: 1.25, notes: "Boosts hearing sensitivity. SSC." },
-  { name: "Select Sound Filter", location: "headware", ess: 0.2, rating: 1, cost: 10000, avail: "6/48 hrs", index: 1.25, notes: "Filters out unwanted noise (Rating 1–5); cost shown is Rating 1. SSC." },
+  { name: "Select Sound Filter", location: "headware", ess: 0.2, rating: 1, cost: 1000, avail: "6/48 hrs", index: 1.25, notes: "Filters out unwanted noise (Levels 1–5); cost = Level × 1,000¥ (Level 1 shown). SSC." },
   // --- HEADWARE: Communications ---
   { name: "Commlink II", location: "headware", ess: 0.3, cost: 8000, avail: "2/48 hrs", index: 1, legality: "Restricted", notes: "Headware radio/comm transceiver, Rating II. SSC." },
   { name: "Commlink IV", location: "headware", ess: 0.3, cost: 18000, avail: "3/48 hrs", index: 1.25, legality: "Restricted", notes: "Headware comm transceiver, Rating IV. SSC." },
   { name: "Commlink VIII", location: "headware", ess: 0.3, cost: 40000, avail: "4/48 hrs", index: 1.5, legality: "Restricted", notes: "High-end headware radio/comm transceiver, Rating VIII. SSC." },
   { name: "Commlink X", location: "headware", ess: 0.3, cost: 60000, avail: "5/48 hrs", index: 1.75, legality: "Restricted", notes: "Top-tier headware comm transceiver, Rating X. SSC." },
   // --- HEADWARE: Crypto / Scramble ---
-  { name: "Crypto Circuit HD", location: "headware", ess: 0.1, rating: 1, cost: 10000, avail: "5/36 hrs", index: 1, legality: "Restricted", notes: "Headware encryption circuit (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC." },
+  { name: "Crypto Circuit HD", location: "headware", ess: 0.1, rating: 1, cost: 10000, avail: "6/36 hrs", index: 1, legality: "Restricted", notes: "Headware encryption circuit (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC." },
   { name: "Scramble Breaker HD", location: "headware", ess: 0.2, rating: 1, cost: 20000, avail: "6/48 hrs", index: 1.5, legality: "Forbidden", notes: "Headware decryption (Rating 1–8). Cost = Rating × 20,000¥ (R1–4), × 40,000¥ (R5–7), 800,000¥ flat (R8). SSC." },
   // --- INTERNALS ---
   { name: "Internal Voice Mask", location: "internals", ess: 0.1, cost: 7000, avail: "6/48 hrs", index: 1, notes: "Alters the user's voice to defeat voiceprint identification. SSC." },
@@ -63,9 +63,9 @@ const CYBER = [
   { name: "Cybergun (Submachine Gun)", location: "bodyware", ess: 0, cost: 1800, avail: "8/7 days", index: 2, legality: "Forbidden", notes: "Implanted SMG. SSC." },
   { name: "Cybergun (Shotgun)", location: "bodyware", ess: 0, cost: 1200, avail: "8/7 days", index: 2, legality: "Forbidden", notes: "Implanted shotgun. SSC." },
   // --- BODYWARE: Skill Hardwires ---
-  { name: "Skill Hardwire (Rating 1–4)", location: "bodyware", ess: 0.2, rating: 1, cost: 5000, avail: "6/10 days", index: 1, legality: "Restricted", notes: "Hardwired active skill; Essence = Rating × 0.2, cost = Rating × 5,000¥ (Rating 1 shown). SSC." },
-  { name: "Skill Hardwire (Rating 5–6)", location: "bodyware", ess: 0.25, rating: 5, cost: 50000, avail: "12/14 days", index: 1.5, legality: "Restricted", notes: "Hardwired skill at higher rating; Essence = Rating × 0.25, cost = Rating × 50,000¥ (Rating 5 shown). SSC." },
-  { name: "Skill Hardwire (Rating 9–10)", location: "bodyware", ess: 0.3, rating: 9, cost: 500000, avail: "12/14 days", index: 1.5, legality: "Restricted", notes: "Top-tier hardwired skill; Essence = Rating × 0.3, cost = Rating × 500,000¥ (Rating 9 shown). SSC." },
+  { name: "Skill Hardwire (Rating 1–4)", location: "bodyware", ess: 0.2, rating: 1, cost: 5000, avail: "6/10 days", index: 1, legality: "Restricted", notes: "Hardwired active skill (Levels 1–4); Essence = Level × 0.2, cost = Level × 5,000¥ (per-level multiplier shown). SSC." },
+  { name: "Skill Hardwire (Rating 5–8)", location: "bodyware", ess: 0.25, rating: 5, cost: 50000, avail: "12/14 days", index: 1.5, legality: "Restricted", notes: "Hardwired skill (Levels 5–8); Essence = Level × 0.25, cost = Level × 50,000¥ (per-level multiplier shown). SSC." },
+  { name: "Skill Hardwire (Rating 9–10)", location: "bodyware", ess: 0.3, rating: 9, cost: 500000, avail: "12/14 days", index: 1.5, legality: "Restricted", notes: "Top-tier hardwired skill (Levels 9–10); Essence = Level × 0.3, cost = Level × 500,000¥ (per-level multiplier shown). SSC." },
   // --- BODYWARE: Boosted Reflexes ---
   { name: "Boosted Reflexes 1", location: "bodyware", ess: 0.5, cost: 15000, avail: "3/24 hrs", index: 1, legality: "Restricted", notes: "Reaction/initiative boost, level 1 (a budget alternative to wired reflexes). SSC.", mods: { reaction: 1 } },
   { name: "Boosted Reflexes 2", location: "bodyware", ess: 1.25, cost: 40000, avail: "3/24 hrs", index: 1.25, legality: "Restricted", notes: "Boosted reflexes, level 2. SSC.", mods: { reaction: 2 } },

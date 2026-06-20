@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Top-tier hardwired skill; Essence = Rating × 0.3, cost = Rating × 500,000¥ (Rating 9 shown). SSC."
+    "notes": "Top-tier hardwired skill (Levels 9–10); Essence = Level × 0.3, cost = Level × 500,000¥ (per-level multiplier shown). SSC."
   },
   "effects": [],
   "flags": {},

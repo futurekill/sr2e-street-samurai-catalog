@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 (in development)
+
+- Dropped the empty `ssc-vehicles` pack (the catalog has no vehicle section).
+- Cyberware audit against the full pg-104 CYBERTECH table (all 32 rows covered):
+  fixed the **Select Sound Filter** cost (10,000¥ → 1,000¥; it's Level × 1,000¥),
+  renamed the middle **Skill Hardwire** tier to its book range (5–8, not 5–6),
+  and corrected the **Crypto Circuit HD** availability to 6/36 hrs.
+
 ## 0.1.0 (in development)
 
 Compendium content for the *Street Samurai Catalog* (FASA 7104a), transcribed

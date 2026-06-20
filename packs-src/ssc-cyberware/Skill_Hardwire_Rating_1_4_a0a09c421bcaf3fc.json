@@ -25,7 +25,7 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Hardwired active skill; Essence = Rating × 0.2, cost = Rating × 5,000¥ (Rating 1 shown). SSC."
+    "notes": "Hardwired active skill (Levels 1–4); Essence = Level × 0.2, cost = Level × 5,000¥ (per-level multiplier shown). SSC."
   },
   "effects": [],
   "flags": {},
