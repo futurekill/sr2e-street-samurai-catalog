@@ -9,8 +9,10 @@ per-world. It is entirely separate from the system: its own repo, its own packs,
 no shared code — it just builds content against the system's item types.
 
 ## Status
-Early scaffold; content is being transcribed from the source catalog into the
-`ssc-*` packs, batched by category.
+**Released — v0.1.2.** The catalog's gear is transcribed into the `ssc-*` packs:
+**108 items across 6 packs** — weapons (46), cyberware (32), armor (15), gear
+(12), vehicles (2), and ammo (1). Built batched by category, every value verified
+against the source pages.
 
 ## Development
 `packs-src/` (per-document JSON) is the source of truth; `packs/` is the LevelDB
