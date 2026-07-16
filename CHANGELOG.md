@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 — 2026-07-16
+### Fixed
+- **Requires sr2e 0.9.2, not 0.9.0.** Nine gear items (Improved Gas Vent III and
+  the other mounts) are functional weapon accessories using `weaponAccessory` /
+  `linkedWeaponId`, which the system only added in 0.9.2 — on 0.9.0/0.9.1 they
+  would install and silently do nothing when attached.
+
 ## 0.1.2
 
 - **Riot shield corrections** (from a physical-book capture): the riot shield has
