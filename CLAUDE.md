@@ -3,7 +3,7 @@
 A FoundryVTT **V13** content module adding *Street Samurai Catalog* (FASA 7104a)
 gear to the **Shadowrun 2nd Edition system** (`sr2e`). Separate package from the
 system: own repo, own packs, no shared code. Depends on the system via
-`module.json` → `relationships.systems` (sr2e ≥ 0.9.0), so its items use the
+`module.json` → `relationships.systems` (sr2e ≥ 0.9.2), so its items use the
 system's item data models (`weapon`, `armor`, `cyberware`, `gear`, `ammo`,
 `vehicle`/`vehicle_mod`).
 
