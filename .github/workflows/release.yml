@@ -76,9 +76,10 @@ jobs:
       - name: Package module zip
         run: |
           mkdir -p staging/${{ env.MODULE_ID }}
-          rsync -av \
+          rsync -avm \
             --exclude='.git' \
             --exclude='.github' \
+            --exclude='.DS_Store' \
             --exclude='staging' \
             --exclude='node_modules' \
             --exclude='.gitignore' \
