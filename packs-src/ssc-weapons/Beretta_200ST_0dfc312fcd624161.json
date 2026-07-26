@@ -2,7 +2,7 @@
   "_id": "0dfc312fcd624161",
   "name": "Beretta 200ST",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/beretta-200st.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

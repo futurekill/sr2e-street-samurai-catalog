@@ -2,7 +2,7 @@
   "_id": "ba6c120670294d28",
   "name": "Ares MP-LMG",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ares-mp-lmg.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

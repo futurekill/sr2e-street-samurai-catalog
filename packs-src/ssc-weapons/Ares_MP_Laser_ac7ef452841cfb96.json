@@ -2,7 +2,7 @@
   "_id": "ac7ef452841cfb96",
   "name": "Ares MP Laser",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ares-mp-laser.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

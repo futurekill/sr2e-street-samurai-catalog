@@ -2,7 +2,7 @@
   "_id": "1270972ae42e0ff4",
   "name": "Combat Axe",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/combat-axe.webp",
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",

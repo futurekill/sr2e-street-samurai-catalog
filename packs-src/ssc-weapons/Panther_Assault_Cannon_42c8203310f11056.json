@@ -2,7 +2,7 @@
   "_id": "42c8203310f11056",
   "name": "Panther Assault Cannon",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/panther-assault-cannon.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

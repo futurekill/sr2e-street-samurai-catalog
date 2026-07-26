@@ -2,7 +2,7 @@
   "_id": "a836cad98a90e19c",
   "name": "Riot Shield, Large",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/riot-shield-large.webp",
   "system": {
     "ballistic": 2,
     "impact": 0,

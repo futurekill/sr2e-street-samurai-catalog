@@ -2,7 +2,7 @@
   "_id": "2934b217715eb039",
   "name": "Grenade Link",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/gear/grenade-link.webp",
   "system": {
     "category": "accessories",
     "rating": 1,

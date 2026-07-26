@@ -2,7 +2,7 @@
   "_id": "8c66d5a6f0fa92db",
   "name": "Heavy Security Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/heavy-security-armor.webp",
   "system": {
     "ballistic": 7,
     "impact": 5,

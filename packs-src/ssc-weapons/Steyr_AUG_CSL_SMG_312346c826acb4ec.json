@@ -2,7 +2,7 @@
   "_id": "312346c826acb4ec",
   "name": "Steyr AUG-CSL SMG",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/steyr-aug-csl-smg.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

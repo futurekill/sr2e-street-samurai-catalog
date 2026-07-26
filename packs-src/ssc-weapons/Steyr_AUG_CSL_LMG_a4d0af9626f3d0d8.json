@@ -2,7 +2,7 @@
   "_id": "a4d0af9626f3d0d8",
   "name": "Steyr AUG-CSL LMG",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/steyr-aug-csl-lmg.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

@@ -2,7 +2,7 @@
   "_id": "08278fe0aed52b38",
   "name": "Improved Hand Blades",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/improved-hand-blades.webp",
   "system": {
     "weaponType": "melee",
     "skill": "unarmed_combat",

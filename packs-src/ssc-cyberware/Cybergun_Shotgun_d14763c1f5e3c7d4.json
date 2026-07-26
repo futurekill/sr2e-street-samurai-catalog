@@ -2,7 +2,7 @@
   "_id": "d14763c1f5e3c7d4",
   "name": "Cybergun (Shotgun)",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/cybergun-shotgun.webp",
   "system": {
     "location": "bodyware",
     "grade": "standard",

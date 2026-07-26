@@ -2,7 +2,7 @@
   "_id": "d76fc2662b70cb4e",
   "name": "Form-Fitting Body Armor (Level 2)",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/form-fitting-body-armor-level-2.webp",
   "system": {
     "ballistic": 3,
     "impact": 1,

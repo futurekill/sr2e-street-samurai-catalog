@@ -2,7 +2,7 @@
   "_id": "0143b4e9d05f3ce0",
   "name": "Tiffani Self-Defender",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/tiffani-self-defender.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

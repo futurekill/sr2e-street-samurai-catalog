@@ -2,7 +2,7 @@
   "_id": "4852f2eafdf57de9",
   "name": "Ingram Smartgun",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ingram-smartgun.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

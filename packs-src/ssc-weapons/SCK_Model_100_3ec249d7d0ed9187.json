@@ -2,7 +2,7 @@
   "_id": "3ec249d7d0ed9187",
   "name": "SCK Model 100",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/sck-model-100.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

@@ -2,7 +2,7 @@
   "_id": "b605a448b1080cd9",
   "name": "Ares Monosword",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ares-monosword.webp",
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",

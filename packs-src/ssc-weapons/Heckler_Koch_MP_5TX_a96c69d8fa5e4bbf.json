@@ -2,7 +2,7 @@
   "_id": "a96c69d8fa5e4bbf",
   "name": "Heckler & Koch MP-5TX",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/heckler-koch-mp-5tx.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

@@ -2,7 +2,7 @@
   "_id": "7c92754b6c0adcb7",
   "name": "Ares Light Fire 70",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ares-light-fire-70.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

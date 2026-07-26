@@ -2,7 +2,7 @@
   "_id": "fc7f24535f735ed7",
   "name": "GE Vindicator Minigun",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ge-vindicator-minigun.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

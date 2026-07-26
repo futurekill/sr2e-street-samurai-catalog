@@ -2,7 +2,7 @@
   "_id": "84146a4f05a58e62",
   "name": "Forearm Snap Blades",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/forearm-snap-blades.webp",
   "system": {
     "weaponType": "melee",
     "skill": "unarmed_combat",

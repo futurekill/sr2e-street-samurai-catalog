@@ -2,7 +2,7 @@
   "_id": "64e6c0e7ad9188bd",
   "name": "Light Security Armor",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/light-security-armor.webp",
   "system": {
     "ballistic": 6,
     "impact": 4,

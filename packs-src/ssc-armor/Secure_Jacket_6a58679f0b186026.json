@@ -2,7 +2,7 @@
   "_id": "6a58679f0b186026",
   "name": "Secure Jacket",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/secure-jacket.webp",
   "system": {
     "ballistic": 5,
     "impact": 3,

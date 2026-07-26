@@ -2,7 +2,7 @@
   "_id": "6bd2e5d75659ef62",
   "name": "Select Sound Filter",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/select-sound-filter.webp",
   "system": {
     "location": "headware",
     "grade": "standard",

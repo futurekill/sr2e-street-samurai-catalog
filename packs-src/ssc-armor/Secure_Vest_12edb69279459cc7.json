@@ -2,7 +2,7 @@
   "_id": "12edb69279459cc7",
   "name": "Secure Vest",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/secure-vest.webp",
   "system": {
     "ballistic": 2,
     "impact": 1,

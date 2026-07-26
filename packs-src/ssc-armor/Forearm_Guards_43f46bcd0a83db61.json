@@ -2,7 +2,7 @@
   "_id": "43f46bcd0a83db61",
   "name": "Forearm Guards",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/forearm-guards.webp",
   "system": {
     "ballistic": 0,
     "impact": 1,

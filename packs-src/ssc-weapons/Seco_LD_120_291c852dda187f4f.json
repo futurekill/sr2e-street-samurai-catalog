@@ -2,7 +2,7 @@
   "_id": "291c852dda187f4f",
   "name": "Seco LD-120",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/seco-ld-120.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

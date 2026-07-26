@@ -2,7 +2,7 @@
   "_id": "a1640c72b9c0d311",
   "name": "Secure Clothing",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/secure-clothing.webp",
   "system": {
     "ballistic": 3,
     "impact": 0,

@@ -2,7 +2,7 @@
   "_id": "82f7326803566baf",
   "name": "AZ-150 Stun Baton",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/az-150-stun-baton.webp",
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",

@@ -2,7 +2,7 @@
   "_id": "119f0df98534468e",
   "name": "Survival Knife",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/survival-knife.webp",
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",

@@ -2,7 +2,7 @@
   "_id": "09f241bf8945cadc",
   "name": "Vision Magnification (Optical 1)",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/vision-magnification-optical-1.webp",
   "system": {
     "location": "headware",
     "grade": "standard",

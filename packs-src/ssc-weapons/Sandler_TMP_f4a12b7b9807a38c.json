@@ -2,7 +2,7 @@
   "_id": "f4a12b7b9807a38c",
   "name": "Sandler TMP",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/sandler-tmp.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

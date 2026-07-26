@@ -2,7 +2,7 @@
   "_id": "03928df41402b1db",
   "name": "Ceska vz120",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ceska-vz120.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

@@ -2,7 +2,7 @@
   "_id": "e7e2318aca1f7fa3",
   "name": "Net Gun (Large)",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/net-gun-large.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

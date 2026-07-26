@@ -2,7 +2,7 @@
   "_id": "29e9e0b91282d0a2",
   "name": "Sense Link",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/sense-link.webp",
   "system": {
     "location": "internals",
     "grade": "standard",

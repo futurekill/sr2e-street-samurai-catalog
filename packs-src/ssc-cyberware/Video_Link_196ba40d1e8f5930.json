@@ -2,7 +2,7 @@
   "_id": "196ba40d1e8f5930",
   "name": "Video Link",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/video-link.webp",
   "system": {
     "location": "internals",
     "grade": "standard",

@@ -2,7 +2,7 @@
   "_id": "e4a49454c4714f59",
   "name": "Beretta Model 70",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/beretta-model-70.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

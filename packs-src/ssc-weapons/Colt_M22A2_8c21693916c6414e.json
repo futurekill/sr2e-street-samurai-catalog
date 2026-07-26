@@ -2,7 +2,7 @@
   "_id": "8c21693916c6414e",
   "name": "Colt M22A2",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/colt-m22a2.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

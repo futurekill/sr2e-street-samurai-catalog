@@ -2,7 +2,7 @@
   "_id": "cc21b84f17be64ef",
   "name": "Walther MA-2100",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/walther-ma-2100.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

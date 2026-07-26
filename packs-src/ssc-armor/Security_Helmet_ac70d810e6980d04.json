@@ -2,7 +2,7 @@
   "_id": "ac70d810e6980d04",
   "name": "Security Helmet",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/security-helmet.webp",
   "system": {
     "ballistic": 1,
     "impact": 2,

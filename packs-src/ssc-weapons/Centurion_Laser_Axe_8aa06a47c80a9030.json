@@ -2,7 +2,7 @@
   "_id": "8aa06a47c80a9030",
   "name": "Centurion Laser Axe",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/centurion-laser-axe.webp",
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",

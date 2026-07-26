@@ -2,7 +2,7 @@
   "_id": "4b97c36b83aa5c9c",
   "name": "Steyr AUG-CSL Carbine",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/steyr-aug-csl-carbine.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

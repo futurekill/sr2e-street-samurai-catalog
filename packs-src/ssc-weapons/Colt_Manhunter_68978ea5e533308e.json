@@ -2,7 +2,7 @@
   "_id": "68978ea5e533308e",
   "name": "Colt Manhunter",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/colt-manhunter.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

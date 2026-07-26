@@ -2,7 +2,7 @@
   "_id": "bffc33a167677e01",
   "name": "Stoner-Ares M107",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/stoner-ares-m107.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

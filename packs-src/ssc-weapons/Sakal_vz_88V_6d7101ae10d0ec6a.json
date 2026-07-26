@@ -2,7 +2,7 @@
   "_id": "6d7101ae10d0ec6a",
   "name": "Sakal vz 88V",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/sakal-vz-88v.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

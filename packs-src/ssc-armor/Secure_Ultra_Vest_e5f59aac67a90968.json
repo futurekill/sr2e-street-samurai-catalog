@@ -2,7 +2,7 @@
   "_id": "e5f59aac67a90968",
   "name": "Secure Ultra-Vest",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/secure-ultra-vest.webp",
   "system": {
     "ballistic": 3,
     "impact": 2,

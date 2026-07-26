@@ -2,7 +2,7 @@
   "_id": "0c7d233115301fa0",
   "name": "Ceska Black Scorpion",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ceska-black-scorpion.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

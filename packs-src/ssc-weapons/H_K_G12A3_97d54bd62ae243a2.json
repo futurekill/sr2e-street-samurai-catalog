@@ -2,7 +2,7 @@
   "_id": "97d54bd62ae243a2",
   "name": "H&K G12A3",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/h-k-g12a3.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

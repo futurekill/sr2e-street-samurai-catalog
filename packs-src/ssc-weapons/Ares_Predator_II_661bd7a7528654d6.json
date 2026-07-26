@@ -2,7 +2,7 @@
   "_id": "661bd7a7528654d6",
   "name": "Ares Predator II",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ares-predator-ii.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

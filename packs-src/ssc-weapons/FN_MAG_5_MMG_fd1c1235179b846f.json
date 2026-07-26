@@ -2,7 +2,7 @@
   "_id": "fd1c1235179b846f",
   "name": "FN MAG-5 MMG",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/fn-mag-5-mmg.webp",
   "system": {
     "weaponType": "heavy",
     "skill": "heavy_weapons",

@@ -2,7 +2,7 @@
   "_id": "68674e6ccab80148",
   "name": "Steyr AUG-CSL Assault Rifle",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/steyr-aug-csl-assault-rifle.webp",
   "system": {
     "weaponType": "firearm",
     "skill": "firearms",

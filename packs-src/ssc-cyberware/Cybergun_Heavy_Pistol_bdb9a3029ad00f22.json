@@ -2,7 +2,7 @@
   "_id": "bdb9a3029ad00f22",
   "name": "Cybergun (Heavy Pistol)",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/cybergun-heavy-pistol.webp",
   "system": {
     "location": "bodyware",
     "grade": "standard",

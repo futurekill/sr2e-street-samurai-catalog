@@ -2,7 +2,7 @@
   "_id": "be368e93a153a309",
   "name": "Ranger-X Bow",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ranger-x-bow.webp",
   "system": {
     "weaponType": "projectile",
     "skill": "projectile_weapons",

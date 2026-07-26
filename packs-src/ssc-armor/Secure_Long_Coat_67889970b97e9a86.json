@@ -2,7 +2,7 @@
   "_id": "67889970b97e9a86",
   "name": "Secure Long Coat",
   "type": "armor",
-  "img": "icons/svg/shield.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/armor/secure-long-coat.webp",
   "system": {
     "ballistic": 4,
     "impact": 2,

@@ -2,7 +2,7 @@
   "_id": "d89fb9033f7cf29b",
   "name": "Scramble Breaker HD",
   "type": "cyberware",
-  "img": "icons/svg/upgrade.svg",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/cyberware/scramble-breaker-hd.webp",
   "system": {
     "location": "headware",
     "grade": "standard",
