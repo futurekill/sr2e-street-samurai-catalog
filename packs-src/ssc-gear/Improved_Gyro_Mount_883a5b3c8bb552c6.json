@@ -18,7 +18,8 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 5,
     "requiresSmartgun": false,
-    "notes": "An under-barrel gyro stabilizer that soaks up recoil and motion for rock-steady fire (RC 5). Concealability −6. Street Index 1. SSC."
+    "notes": "An under-barrel gyro stabilizer that soaks up recoil and motion for rock-steady fire (RC 5). Concealability −6. Street Index 1. SSC. Street Index 1 per the core book Sourcebook Updates table, p.280.",
+    "streetIndex": 1
   },
   "effects": [],
   "flags": {},

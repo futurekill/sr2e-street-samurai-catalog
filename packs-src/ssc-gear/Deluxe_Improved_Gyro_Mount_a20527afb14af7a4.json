@@ -18,7 +18,8 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 7,
     "requiresSmartgun": false,
-    "notes": "A heavy-duty gyro stabilizer — hose down a corridor on full-auto and keep the group tight (RC 7). Concealability −7. Street Index 1. SSC."
+    "notes": "A heavy-duty gyro stabilizer — hose down a corridor on full-auto and keep the group tight (RC 7). Concealability −7. Street Index 1. SSC. Street Index 1 per the core book Sourcebook Updates table, p.280.",
+    "streetIndex": 1
   },
   "effects": [],
   "flags": {},

@@ -18,7 +18,8 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "A grenade that detonates in a blinding, disorienting flash instead of shrapnel — Special effect, no damage. Street Index 1. SSC."
+    "notes": "A grenade that detonates in a blinding, disorienting flash instead of shrapnel — Special effect, no damage. Street Index 1. SSC. Street Index 1 per the core book Sourcebook Updates table, p.280.",
+    "streetIndex": 1
   },
   "effects": [],
   "flags": {},

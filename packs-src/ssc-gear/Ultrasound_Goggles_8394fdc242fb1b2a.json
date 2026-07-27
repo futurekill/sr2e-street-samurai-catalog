@@ -18,7 +18,8 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
-    "notes": "Goggles that 'see' by ultrasound, cutting straight through smoke and pitch dark within range. Street Index 1. SSC."
+    "notes": "Goggles that 'see' by ultrasound, cutting straight through smoke and pitch dark within range. Street Index 1. SSC. Street Index 1 per the core book Sourcebook Updates table, p.280.",
+    "streetIndex": 1
   },
   "effects": [],
   "flags": {},
