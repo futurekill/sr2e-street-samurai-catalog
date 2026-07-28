@@ -13,7 +13,8 @@
     "legality": "Restricted",
     "equipped": false,
     "isLayered": false,
-    "notes": "The matching hard helmet for the security-armor line — sealed, padded, and built to take a hit. Street Index 2. SSC."
+    "notes": "The matching hard helmet for the security-armor line — sealed, padded, and built to take a hit. Street Index 2. SSC.",
+    "streetIndex": 2
   },
   "effects": [],
   "flags": {},

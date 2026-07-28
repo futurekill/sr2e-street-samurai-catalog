@@ -13,7 +13,8 @@
     "legality": "Legal",
     "equipped": false,
     "isLayered": false,
-    "notes": "A thin, highly concealable armored vest worn under a shirt and forgotten about. Street Index 0.9. SSC."
+    "notes": "A thin, highly concealable armored vest worn under a shirt and forgotten about. Street Index 0.9. SSC.",
+    "streetIndex": 0.9
   },
   "effects": [],
   "flags": {},

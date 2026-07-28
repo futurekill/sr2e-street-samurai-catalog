@@ -13,7 +13,8 @@
     "legality": "Legal",
     "equipped": false,
     "isLayered": false,
-    "notes": "A heavier armored jacket that still passes as a fashion choice — the runner's everyday coat. Street Index 0.8. SSC."
+    "notes": "A heavier armored jacket that still passes as a fashion choice — the runner's everyday coat. Street Index 0.8. SSC.",
+    "streetIndex": 0.8
   },
   "effects": [],
   "flags": {},

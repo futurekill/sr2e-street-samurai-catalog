@@ -6,9 +6,9 @@
   "system": {
     "location": "bodyware",
     "grade": "standard",
-    "essenceCost": 0.25,
+    "essenceCost": 1.25,
     "rating": 5,
-    "cost": 50000,
+    "cost": 250000,
     "availability": "12/14 days",
     "streetIndex": "1.5",
     "legality": "Restricted",
@@ -25,7 +25,37 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Higher-grade hardwired skill, pushing into expert territory (Levels 5–8). Essence = Level × 0.25, cost = Level × 50,000¥ (per-level multiplier shown). SSC."
+    "notes": "Higher-grade hardwired skill, pushing into expert territory (Levels 5–8). Essence = Level × 0.25, cost = Level × 50,000¥ (per-level multiplier shown). SSC.",
+    "ratingStats": [
+      {
+        "rating": 5,
+        "essenceCost": 1.25,
+        "cost": 250000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 6,
+        "essenceCost": 1.5,
+        "cost": 300000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 7,
+        "essenceCost": 1.75,
+        "cost": 350000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 8,
+        "essenceCost": 2,
+        "cost": 400000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      }
+    ]
   },
   "effects": [],
   "flags": {},

@@ -25,7 +25,37 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Burns an active skill straight into the nervous system — instant competence, no practice required (Levels 1–4). Essence = Level × 0.2, cost = Level × 5,000¥ (per-level multiplier shown). SSC."
+    "notes": "Burns an active skill straight into the nervous system — instant competence, no practice required (Levels 1–4). Essence = Level × 0.2, cost = Level × 5,000¥ (per-level multiplier shown). SSC.",
+    "ratingStats": [
+      {
+        "rating": 1,
+        "essenceCost": 0.2,
+        "cost": 5000,
+        "availability": "6/10 days",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 2,
+        "essenceCost": 0.4,
+        "cost": 10000,
+        "availability": "6/10 days",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 3,
+        "essenceCost": 0.6,
+        "cost": 15000,
+        "availability": "6/10 days",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 4,
+        "essenceCost": 0.8,
+        "cost": 20000,
+        "availability": "6/10 days",
+        "streetIndex": "1"
+      }
+    ]
   },
   "effects": [],
   "flags": {},

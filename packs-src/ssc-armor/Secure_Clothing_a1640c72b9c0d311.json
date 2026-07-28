@@ -13,7 +13,8 @@
     "legality": "Legal",
     "equipped": false,
     "isLayered": false,
-    "notes": "Armor woven into ordinary-looking streetwear — protection that draws no second glance. Street Index 0.9. SSC."
+    "notes": "Armor woven into ordinary-looking streetwear — protection that draws no second glance. Street Index 0.9. SSC.",
+    "streetIndex": 0.9
   },
   "effects": [],
   "flags": {},

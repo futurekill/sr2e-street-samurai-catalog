@@ -6,9 +6,9 @@
   "system": {
     "location": "bodyware",
     "grade": "standard",
-    "essenceCost": 0.3,
+    "essenceCost": 2.7,
     "rating": 9,
-    "cost": 500000,
+    "cost": 4500000,
     "availability": "12/14 days",
     "streetIndex": "1.5",
     "legality": "Restricted",
@@ -25,7 +25,23 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Master-grade hardwired skill — flawless, hard-wired expertise at a staggering price (Levels 9–10). Essence = Level × 0.3, cost = Level × 500,000¥ (per-level multiplier shown). SSC."
+    "notes": "Master-grade hardwired skill — flawless, hard-wired expertise at a staggering price (Levels 9–10). Essence = Level × 0.3, cost = Level × 500,000¥ (per-level multiplier shown). SSC.",
+    "ratingStats": [
+      {
+        "rating": 9,
+        "essenceCost": 2.7,
+        "cost": 4500000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 10,
+        "essenceCost": 3,
+        "cost": 5000000,
+        "availability": "12/14 days",
+        "streetIndex": "1.5"
+      }
+    ]
   },
   "effects": [],
   "flags": {},

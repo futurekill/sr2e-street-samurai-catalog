@@ -13,7 +13,8 @@
     "legality": "Restricted",
     "equipped": false,
     "isLayered": false,
-    "notes": "Integrated security armor (heavy) — near-powered-armor protection for high-threat response teams. Catalog weight listed as \"13 + Body\". Street Index 3. SSC."
+    "notes": "Integrated security armor (heavy) — near-powered-armor protection for high-threat response teams. Catalog weight listed as \"13 + Body\". Street Index 3. SSC.",
+    "streetIndex": 3
   },
   "effects": [],
   "flags": {},

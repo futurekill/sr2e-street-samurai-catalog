@@ -13,7 +13,8 @@
     "legality": "Restricted",
     "equipped": false,
     "isLayered": false,
-    "notes": "Ares Personal Riot-Security Shield (large), designed for riot control and high-threat work. Its Ballistic stacks with the wearer's worn armor; the carrier gains a bonus in melee, and a bash does (Str+2)L Stun. SSC."
+    "notes": "Ares Personal Riot-Security Shield (large), designed for riot control and high-threat work. Its Ballistic stacks with the wearer's worn armor; the carrier gains a bonus in melee, and a bash does (Str+2)L Stun. SSC.",
+    "streetIndex": 2
   },
   "effects": [],
   "flags": {},

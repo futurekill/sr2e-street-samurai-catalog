@@ -25,7 +25,79 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Encrypts the user's headware comms against eavesdroppers (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC."
+    "notes": "Encrypts the user's headware comms against eavesdroppers (Rating 1–10). Cost = Rating × 10,000¥ (R1–4), × 20,000¥ (R5–7), × 30,000¥ (R8–9), 500,000¥ flat (R10). SSC.",
+    "ratingStats": [
+      {
+        "rating": 1,
+        "essenceCost": 0.1,
+        "cost": 10000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 2,
+        "essenceCost": 0.1,
+        "cost": 20000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 3,
+        "essenceCost": 0.1,
+        "cost": 30000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 4,
+        "essenceCost": 0.1,
+        "cost": 40000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1"
+      },
+      {
+        "rating": 5,
+        "essenceCost": 0.1,
+        "cost": 100000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1.25"
+      },
+      {
+        "rating": 6,
+        "essenceCost": 0.1,
+        "cost": 120000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1.25"
+      },
+      {
+        "rating": 7,
+        "essenceCost": 0.1,
+        "cost": 140000,
+        "availability": "6/36 hrs",
+        "streetIndex": "1.25"
+      },
+      {
+        "rating": 8,
+        "essenceCost": 0.1,
+        "cost": 240000,
+        "availability": "8/36 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 9,
+        "essenceCost": 0.1,
+        "cost": 270000,
+        "availability": "8/36 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 10,
+        "essenceCost": 0.1,
+        "cost": 500000,
+        "availability": "9/36 hrs",
+        "streetIndex": "2"
+      }
+    ]
   },
   "effects": [],
   "flags": {},

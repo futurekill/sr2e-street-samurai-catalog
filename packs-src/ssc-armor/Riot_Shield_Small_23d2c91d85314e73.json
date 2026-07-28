@@ -13,7 +13,8 @@
     "legality": "Restricted",
     "equipped": false,
     "isLayered": false,
-    "notes": "Ares Personal Riot-Security Shield (small, half-body) of clear high-impact plasteel. Its Ballistic stacks with the wearer's worn armor; the carrier also gains a bonus in melee, and bashing with it does (Str+2)L Stun. Street Index 2. SSC."
+    "notes": "Ares Personal Riot-Security Shield (small, half-body) of clear high-impact plasteel. Its Ballistic stacks with the wearer's worn armor; the carrier also gains a bonus in melee, and bashing with it does (Str+2)L Stun. Street Index 2. SSC.",
+    "streetIndex": 2
   },
   "effects": [],
   "flags": {},

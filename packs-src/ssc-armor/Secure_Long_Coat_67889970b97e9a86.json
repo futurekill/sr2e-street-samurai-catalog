@@ -13,7 +13,8 @@
     "legality": "Legal",
     "equipped": false,
     "isLayered": false,
-    "notes": "An armored long coat — the classic shadowrunner silhouette, and a lot of quiet coverage. Street Index 0.9. SSC."
+    "notes": "An armored long coat — the classic shadowrunner silhouette, and a lot of quiet coverage. Street Index 0.9. SSC.",
+    "streetIndex": 0.9
   },
   "effects": [],
   "flags": {},

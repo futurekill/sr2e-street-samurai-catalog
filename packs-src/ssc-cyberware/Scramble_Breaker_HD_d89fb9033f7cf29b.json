@@ -25,7 +25,65 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Cracks encrypted signals on the fly — strictly black-market headware (Rating 1–8). Cost = Rating × 20,000¥ (R1–4), × 40,000¥ (R5–7), 800,000¥ flat (R8). SSC."
+    "notes": "Cracks encrypted signals on the fly — strictly black-market headware (Rating 1–8). Cost = Rating × 20,000¥ (R1–4), × 40,000¥ (R5–7), 800,000¥ flat (R8). SSC.",
+    "ratingStats": [
+      {
+        "rating": 1,
+        "essenceCost": 0.2,
+        "cost": 20000,
+        "availability": "6/48 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 2,
+        "essenceCost": 0.2,
+        "cost": 40000,
+        "availability": "6/48 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 3,
+        "essenceCost": 0.2,
+        "cost": 60000,
+        "availability": "6/48 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 4,
+        "essenceCost": 0.2,
+        "cost": 80000,
+        "availability": "6/48 hrs",
+        "streetIndex": "1.5"
+      },
+      {
+        "rating": 5,
+        "essenceCost": 0.2,
+        "cost": 200000,
+        "availability": "8/48 hrs",
+        "streetIndex": "1.75"
+      },
+      {
+        "rating": 6,
+        "essenceCost": 0.2,
+        "cost": 240000,
+        "availability": "8/48 hrs",
+        "streetIndex": "1.75"
+      },
+      {
+        "rating": 7,
+        "essenceCost": 0.2,
+        "cost": 280000,
+        "availability": "8/48 hrs",
+        "streetIndex": "1.75"
+      },
+      {
+        "rating": 10,
+        "essenceCost": 0.2,
+        "cost": 600000,
+        "availability": "10/48 hrs",
+        "streetIndex": "1.75"
+      }
+    ]
   },
   "effects": [],
   "flags": {},
