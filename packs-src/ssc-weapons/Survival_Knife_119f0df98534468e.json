@@ -6,7 +6,7 @@
   "system": {
     "weaponType": "melee",
     "skill": "armed_combat",
-    "damageCode": "(Str+1)L",
+    "damageCode": "(Str+2)L",
     "damageType": "physical",
     "concealability": 6,
     "reach": 0,
@@ -34,7 +34,7 @@
     "cost": 450,
     "availability": "3/6 hrs",
     "legality": "Legal",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A heavy, multipurpose fighting knife — equally at home dressing game or settling an argument in an alley. SSC."

@@ -34,7 +34,7 @@
     "cost": 7200,
     "availability": "16/14 days",
     "legality": "Forbidden",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A shoulder-fired assault cannon that lobs superplast warheads — the answer to armored vehicles, hardened cover, and angry trolls. SSC (pg-055)."

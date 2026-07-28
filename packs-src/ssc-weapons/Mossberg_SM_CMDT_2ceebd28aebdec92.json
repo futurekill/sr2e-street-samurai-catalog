@@ -34,7 +34,7 @@
     "cost": 1900,
     "availability": "12/8 days",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "The smartgun-integrated CMDT: the same hard-hitting frame with built-in targeting assistance for tighter patterns under pressure. SSC."

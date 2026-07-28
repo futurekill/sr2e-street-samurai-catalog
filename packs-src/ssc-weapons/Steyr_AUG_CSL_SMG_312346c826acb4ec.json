@@ -34,7 +34,7 @@
     "cost": 4500,
     "availability": "10/4 days",
     "legality": "Restricted",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "The submachine-gun configuration of the modular AUG-CSL bullpup: compact and controllable, swapped over from the same convertible chassis. Part of the modular Steyr AUG-CSL system; the full package with all listed accessories is 4,500¥. SSC."

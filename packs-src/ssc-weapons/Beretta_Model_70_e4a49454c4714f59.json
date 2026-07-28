@@ -34,7 +34,7 @@
     "cost": 900,
     "availability": "5/3 days",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A controllable submachine gun prized for its handling and deep magazine. SSC."

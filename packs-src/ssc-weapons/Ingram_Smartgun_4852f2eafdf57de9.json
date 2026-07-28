@@ -34,7 +34,7 @@
     "cost": 950,
     "availability": "4/24 hrs",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A submachine gun with a factory-integral smartgun system — point-and-hit firepower for the wired runner. SSC."

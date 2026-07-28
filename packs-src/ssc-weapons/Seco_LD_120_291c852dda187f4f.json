@@ -18,7 +18,7 @@
     },
     "ammo": {
       "current": 12,
-      "max": 12,
+      "max": 22,
       "type": "pistol"
     },
     "recoilComp": 0,
@@ -34,7 +34,7 @@
     "cost": 400,
     "availability": "3/12 hrs",
     "legality": "Legal",
-    "streetIndex": "0.8",
+    "streetIndex": 0.8,
     "equipped": false,
     "accessories": [],
     "notes": "A cheap, no-frills light pistol — disposable and forgettable, which is exactly the point. SSC."

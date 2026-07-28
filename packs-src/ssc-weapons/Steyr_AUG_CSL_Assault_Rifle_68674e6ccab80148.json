@@ -34,7 +34,7 @@
     "cost": 4500,
     "availability": "10/4 days",
     "legality": "Restricted",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "The assault-rifle configuration of the AUG-CSL — the chassis's most aggressive build, with the full single/burst/full-auto suite. Part of the modular Steyr AUG-CSL system; the full package with all listed accessories is 4,500¥. SSC."

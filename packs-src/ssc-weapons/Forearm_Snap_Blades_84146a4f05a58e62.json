@@ -34,7 +34,7 @@
     "cost": 850,
     "availability": "4/48 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "Spring-loaded blades concealed along the forearm that snap out at a flick of the wrist. SSC."

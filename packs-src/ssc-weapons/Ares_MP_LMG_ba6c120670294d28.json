@@ -34,7 +34,7 @@
     "cost": 2200,
     "availability": "6/5 days",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A belt-fed light machine gun built to lay down sustained suppressing fire from a bipod or a sling. SSC."

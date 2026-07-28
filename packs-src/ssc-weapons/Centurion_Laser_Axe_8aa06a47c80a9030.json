@@ -34,7 +34,7 @@
     "cost": 3500,
     "availability": "6/48 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 0.5,
     "equipped": false,
     "accessories": [],
     "notes": "A powered axe with a superheated edge — as much a statement of intimidation as a weapon. SSC."

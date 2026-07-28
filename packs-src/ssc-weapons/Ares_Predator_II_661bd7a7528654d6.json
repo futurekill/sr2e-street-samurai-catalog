@@ -34,7 +34,7 @@
     "cost": 550,
     "availability": "4/24 hrs",
     "legality": "Restricted",
-    "streetIndex": "0.5",
+    "streetIndex": 0.5,
     "equipped": false,
     "accessories": [],
     "notes": "The iconic heavy pistol of the shadows — accurate, hard-hitting, and seemingly in every other holster on the street. SSC."

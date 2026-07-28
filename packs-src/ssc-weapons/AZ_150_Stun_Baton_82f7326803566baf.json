@@ -34,7 +34,7 @@
     "cost": 1500,
     "availability": "3/36 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A telescoping baton that delivers an incapacitating electric jolt on contact (8S Stun). SSC."

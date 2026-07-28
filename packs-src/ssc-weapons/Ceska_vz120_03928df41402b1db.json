@@ -34,7 +34,7 @@
     "cost": 500,
     "availability": "3/12 hrs",
     "legality": "Legal",
-    "streetIndex": "0.8",
+    "streetIndex": 0.8,
     "equipped": false,
     "accessories": [],
     "notes": "An inexpensive, highly concealable light pistol that turns up in coat pockets all over the sprawl. SSC."

@@ -34,7 +34,7 @@
     "cost": 6500,
     "availability": "12/7 days",
     "legality": "Restricted",
-    "streetIndex": "4",
+    "streetIndex": 4,
     "equipped": false,
     "accessories": [],
     "notes": "A precision semi-automatic sniper rifle and the marksman's tool of choice for putting a single heavy round on target at long range. SSC."

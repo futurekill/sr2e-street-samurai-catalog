@@ -34,7 +34,7 @@
     "cost": 950,
     "availability": "5/48 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "An armored glove wired to dump a stunning charge into whatever it strikes (7S Stun). SSC."

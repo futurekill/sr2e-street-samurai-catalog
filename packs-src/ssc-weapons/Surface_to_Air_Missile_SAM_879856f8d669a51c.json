@@ -34,7 +34,7 @@
     "cost": 2500,
     "availability": "18/21 days",
     "legality": "Forbidden",
-    "streetIndex": "4",
+    "streetIndex": 4,
     "equipped": false,
     "accessories": [],
     "notes": "A shoulder-launched guided surface-to-air missile (Intelligence 4 guidance); resolved with the missile/launcher rules rather than standard range brackets. SSC."

@@ -34,7 +34,7 @@
     "cost": 750,
     "availability": "3/24 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A brutal two-handed combat axe; its reverse thrusting point does (Str+2)L at Reach 0. SSC."

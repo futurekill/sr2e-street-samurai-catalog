@@ -34,7 +34,7 @@
     "cost": 4500,
     "availability": "10/4 days",
     "legality": "Restricted",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "The light-machine-gun configuration of the AUG-CSL — the heaviest, longest-barreled build on the modular frame. Part of the modular Steyr AUG-CSL system; the full package with all listed accessories is 4,500¥. SSC."

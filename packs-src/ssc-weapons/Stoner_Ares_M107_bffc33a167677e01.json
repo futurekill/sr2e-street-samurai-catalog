@@ -34,7 +34,7 @@
     "cost": 5200,
     "availability": "18/14 days",
     "legality": "Forbidden",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "A belt-fed heavy machine gun delivering brutal, sustained firepower from a tripod or vehicle mount. SSC."

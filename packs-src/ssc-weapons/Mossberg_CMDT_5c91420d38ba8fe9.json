@@ -34,7 +34,7 @@
     "cost": 1400,
     "availability": "8/8 days",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A rugged selective-fire combat shotgun — devastating in close quarters and a reliable door-breaker. SSC."

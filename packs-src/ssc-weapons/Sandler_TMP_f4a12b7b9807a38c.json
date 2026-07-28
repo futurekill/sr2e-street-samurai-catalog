@@ -34,7 +34,7 @@
     "cost": 500,
     "availability": "5/36 hrs",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A compact, cheap submachine gun — small enough to tuck away, mean enough to matter. SSC."

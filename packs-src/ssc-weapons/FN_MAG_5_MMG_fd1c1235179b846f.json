@@ -34,7 +34,7 @@
     "cost": 3200,
     "availability": "18/14 days",
     "legality": "Forbidden",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "A belt-fed medium machine gun — a crew-served weapon meant to be mounted or hauled into a fixed position. SSC."

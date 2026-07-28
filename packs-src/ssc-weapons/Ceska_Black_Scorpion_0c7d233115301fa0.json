@@ -34,7 +34,7 @@
     "cost": 850,
     "availability": "5/36 hrs",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A brutal little machine pistol that trades fine control for a sudden wall of lead. SSC."

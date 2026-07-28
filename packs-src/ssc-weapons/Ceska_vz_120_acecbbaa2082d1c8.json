@@ -1,0 +1,77 @@
+{
+  "_id": "acecbbaa2082d1c8",
+  "name": "Ceska vz/120",
+  "type": "weapon",
+  "img": "modules/sr2e-street-samurai-catalog/assets/item_icons/weapon/ceska-vz-120.webp",
+  "system": {
+    "weaponType": "firearm",
+    "skill": "firearms",
+    "damageCode": "6L",
+    "damageType": "physical",
+    "concealability": 7,
+    "reach": 0,
+    "firingModes": {
+      "ss": false,
+      "sa": true,
+      "bf": false,
+      "fa": false
+    },
+    "ammo": {
+      "current": 0,
+      "max": 18,
+      "type": "pistol",
+      "sourceId": "",
+      "loadedSourceId": "",
+      "loadedName": "",
+      "damageMod": 0,
+      "armorMod": 0,
+      "armorCalc": "standard",
+      "damageType": ""
+    },
+    "recoilComp": 0,
+    "ranges": {
+      "short": 5,
+      "medium": 15,
+      "long": 30,
+      "extreme": 50
+    },
+    "strengthMin": 0,
+    "weight": 1,
+    "cost": 500,
+    "availability": "3/12 hrs",
+    "legality": "Legal",
+    "streetIndex": 0.8,
+    "equipped": false,
+    "accessories": [],
+    "choke": 0,
+    "smartgunCompatible": false,
+    "weaponFocusForce": 0,
+    "focusBonded": false,
+    "blastType": "",
+    "aerodynamic": false,
+    "quantity": 1,
+    "strengthMinimum": 0,
+    "costPerStrengthMin": 0,
+    "strMinDamageBonus": 0,
+    "notes": "Light pistol. Ranges are the Light Pistol row of the Weapon Range Table (p.88). SSC, restated in the core book's Sourcebook Updates table, p.278."
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.2.2",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!acecbbaa2082d1c8"
+}

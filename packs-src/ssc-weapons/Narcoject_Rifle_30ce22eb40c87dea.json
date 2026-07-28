@@ -34,7 +34,7 @@
     "cost": 1700,
     "availability": "8/2 days",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "The long-range narcoject dart rifle — quiet, non-lethal at the GM's discretion, and dialed to the loaded toxin. SSC."

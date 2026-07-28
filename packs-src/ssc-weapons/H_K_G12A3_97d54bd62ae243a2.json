@@ -34,7 +34,7 @@
     "cost": 2200,
     "availability": "8/4 days",
     "legality": "Restricted",
-    "streetIndex": "3",
+    "streetIndex": 3,
     "equipped": false,
     "accessories": [],
     "notes": "A caseless-ammunition assault rifle — high capacity, full-auto capable, and built to exacting German tolerances. SSC."

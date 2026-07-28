@@ -34,7 +34,7 @@
     "cost": 600,
     "availability": "6/2 days",
     "legality": "Restricted",
-    "streetIndex": "2",
+    "streetIndex": 2,
     "equipped": false,
     "accessories": [],
     "notes": "A dart pistol that puts a target down without killing them — its effect is whatever toxin is loaded in the darts. SSC."

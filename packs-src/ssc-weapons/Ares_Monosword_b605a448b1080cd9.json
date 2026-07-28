@@ -34,7 +34,7 @@
     "cost": 1000,
     "availability": "4/24 hrs",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A monofilament-edged blade that shears through armor and flesh alike — the street samurai's signature steel. SSC."

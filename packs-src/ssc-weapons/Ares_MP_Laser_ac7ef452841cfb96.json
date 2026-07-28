@@ -34,7 +34,7 @@
     "cost": 2500000,
     "availability": "NA",
     "legality": "Forbidden",
-    "streetIndex": "0",
+    "streetIndex": 0,
     "equipped": false,
     "accessories": [],
     "notes": "An experimental man-portable laser fed by a 20-shot power pack — bleeding-edge, heavy, and effectively unobtainable at 2.5 million nuyen. SSC."

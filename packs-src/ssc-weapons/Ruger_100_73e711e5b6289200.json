@@ -34,7 +34,7 @@
     "cost": 1300,
     "availability": "3/24 hrs",
     "legality": "Legal",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A dependable, fully legal sport hunting rifle — cheap, accurate, and a common first long-arm for runners on a budget. SSC."

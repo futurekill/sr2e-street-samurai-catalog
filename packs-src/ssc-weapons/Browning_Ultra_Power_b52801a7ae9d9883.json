@@ -34,7 +34,7 @@
     "cost": 525,
     "availability": "4/24 hrs",
     "legality": "Restricted",
-    "streetIndex": "1.5",
+    "streetIndex": 1.5,
     "equipped": false,
     "accessories": [],
     "notes": "A classic heavy pistol with a reputation for reliability and old-fashioned stopping power. SSC."

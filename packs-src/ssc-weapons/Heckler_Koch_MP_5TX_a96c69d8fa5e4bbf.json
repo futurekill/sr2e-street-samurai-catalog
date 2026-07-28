@@ -34,7 +34,7 @@
     "cost": 850,
     "availability": "5/36 hrs",
     "legality": "Restricted",
-    "streetIndex": "1",
+    "streetIndex": 1,
     "equipped": false,
     "accessories": [],
     "notes": "A refined, accurate SMG and a corporate-security standby the world over. SSC."

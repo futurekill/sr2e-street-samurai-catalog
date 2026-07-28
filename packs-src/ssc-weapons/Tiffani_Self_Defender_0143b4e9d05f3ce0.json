@@ -34,7 +34,7 @@
     "cost": 450,
     "availability": "2/12 hrs",
     "legality": "Legal",
-    "streetIndex": "0.75",
+    "streetIndex": 0.75,
     "equipped": false,
     "accessories": [],
     "notes": "A tiny hold-out pistol designed to disappear in a palm, a clutch, or a waistband — a last word when everything else has failed. SSC."

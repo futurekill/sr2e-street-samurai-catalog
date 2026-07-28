@@ -34,7 +34,7 @@
     "cost": 475,
     "availability": "3/12 hrs",
     "legality": "Legal",
-    "streetIndex": "0.8",
+    "streetIndex": 0.8,
     "equipped": false,
     "accessories": [],
     "notes": "A lightweight, easily-concealed light pistol — a popular backup piece and everyday carry. SSC."
