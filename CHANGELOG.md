@@ -1,5 +1,50 @@
 # Changelog
 
+## 0.3.0 — 2026-07-28
+
+### Fixed
+Armour and cyberware audited against the core book's Sourcebook Updates (p.280–281):
+- **Secure Ultra-Vest:** Ballistic 3 → 4, Impact 2 → 3.
+- **All 15 armour items** had no Street Index.
+- **Six cyberware items printed as per-Level formulas** shipped as flat numbers and
+  now scale with their Level: Select Sound Filter (Level × 10,000¥), Crypto
+  Circuit HD and Scramble Breaker HD (banded prices), and the three Skill
+  Hardwires (Essence and price both scale; a Rating 9 hardwire is 2.7 Essence /
+  4,500,000¥, not 0.3 / 500,000¥). Scramble Breaker HD has no Levels 8–9 because
+  the book prints none.
+
+## 0.2.2 — 2026-07-28
+
+### Fixed
+Weapons audited against the core book's Sourcebook Updates (p.278), the canonical
+SR2 version of this 1st-edition book:
+- Centurion Laser Axe: Street Index 2 → .5.
+- Seco LD-120: ammo 12 → 22 (c).
+- Survival Knife: damage (Str+1)L → (Str+2)L.
+- Ranger-X Arrows: Street Index 1 and Concealability 4 were missing.
+
+### Added
+- **Ceska vz/120** (light pistol, 500¥, SI .8, 18 (c), SA, 6L), printed but
+  never shipped.
+
+## 0.2.1 — 2026-07-27
+
+### Fixed
+- **Eight accessories had no Street Index**, so they sold at list price on the
+  street. Set from the core book's Sourcebook Updates (p.280): Bow Accessory
+  Mount .9, Ultrasound Sight .8, Improved Gyro Mount 1, Deluxe Improved Gyro
+  Mount 1, Ultrasound Goggles 1, Flash Grenade 1, Flash-Pak 1, Grenade Link 2.
+
+## 0.2.0 — 2026-07-26
+
+### Added
+- Custom art for all 108 documents, replacing Foundry's stock icons: weapons,
+  cyberware, armour, gear and ammo as product shots, and top-down tokens for the
+  two vehicles.
+
+### Fixed
+- Releases no longer package `.DS_Store` files.
+
 ## 0.1.3 — 2026-07-16
 ### Fixed
 - **Requires sr2e 0.9.2, not 0.9.0.** Nine gear items (Improved Gas Vent III and
