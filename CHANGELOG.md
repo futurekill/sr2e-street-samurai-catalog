@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased
+
+### Fixed — weapon stats checked against the core book's Sourcebook Updates (p.278–279)
+Every weapon's concealability, ammunition, firing modes, damage, weight, availability,
+cost and Street Index was compared with the core book's SR2 conversion of this catalog:
+- **Concealability:** Ranger-X Bow 3, SCK Model 100 4, Steyr AUG-CSL SMG 5, Steyr
+  AUG-CSL AR 2.
+- **Seco LD-120** weighs 1.25 kg.
+- Everything else already matched. The **GE Vindicator** stays at 12,500¥ (SSC p.58):
+  the appendix prints 2,500¥, but its cost column clips leading digits on that page.
+- Copies already on characters keep the old values; drag the weapon in again.
+
 ## 0.3.1 — 2026-10-16
 
 ### Fixed — range brackets follow the SR2 Weapon Range Table (core p.88)
