@@ -1,5 +1,26 @@
 # Changelog
 
+## Unreleased
+
+### Fixed — range brackets follow the SR2 Weapon Range Table (core p.88)
+19 weapons had brackets from no row of the table, because the module's own range
+categories were wrong; shots at range took the wrong target number. Each weapon now
+uses the class its catalog entry prints ("Type") or its class in the core book's
+Sourcebook Updates (p.279):
+- **Assault rifles** (Colt M22A2, H&K G12A3, Sakal vz 88V, Steyr AUG-CSL AR): 15/40/100/250 m.
+- **Sport rifles** (Ruger 100, Steyr AUG-CSL Carbine): 30/60/150/300 m.
+- **Sniper rifles** (Walther MA-2100; the Ares MP Laser, per its entry, SSC p.54): 40/80/200/400 m.
+- **Shotguns** (Mossberg CMDT, SM-CMDT; the Narcoject Rifle, typed Shotgun on SSC p.62): 10/20/50/100 m.
+- **Steyr AUG-CSL SMG** was filed as an assault rifle: SMG, 10/40/80/150 m.
+- **Machine guns** are no longer one category: light (Ares MP-LMG, GE Vindicator,
+  Steyr AUG-CSL LMG) 20/40/80/150 m; medium (FN MAG-5) 40/150/300/500 m; heavy
+  (Stoner-Ares M107) 40/150/400/800 m.
+- **Panther Assault Cannon**: 50/150/450/1,300 m.
+- **Surface-to-Air Missile** had no ranges at all: the missile launcher table with
+  extreme range out to 5,000 m (SSC p.59).
+
+Copies already on characters keep their old brackets; drag the weapon in again.
+
 ## 0.3.0 — 2026-07-28
 
 ### Fixed

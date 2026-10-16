@@ -1,3 +1,8 @@
+// ⚠ DO NOT RE-RUN without porting first. packs-src/ssc-weapons has been edited by hand
+// since this generator last matched it: the 0.2.2/0.3.0 Sourcebook Updates audits
+// (Street Index numbers, damage and ammo fixes) and the custom icons. Re-running
+// silently reverts those and wipes every weapon's art (found 2026-10-16). Edit
+// packs-src directly, or port those changes here before relying on this script.
 // Generate Street Samurai Catalog weapons into packs-src/ssc-weapons.
 // Stats transcribed from the catalog's consolidated weapons summary table
 // (pg-103, verified against the page render; the Panther's cost confirmed from
@@ -15,14 +20,20 @@ const modes = (s) => {
   const p = s.split("/");
   return { ss: p.includes("SS"), sa: p.includes("SA"), bf: p.includes("BF"), fa: p.includes("FA") };
 };
-// Standard SR2 range brackets (upper metre bound per bracket) by category.
+// SR2 Weapon Range Table (core p.88, read from a render): upper metre bound per
+// bracket. Each weapon's class is the "Type" its SSC entry prints, or its class in
+// the core book's Sourcebook Updates (p.279).
 const RANGE = {
-  sport:   { short: 50, medium: 150, long: 350, extreme: 550 },
-  sniper:  { short: 50, medium: 350, long: 800, extreme: 1500 },
-  shotgun: { short: 10, medium: 20,  long: 40,  extreme: 60 },
-  assault: { short: 25, medium: 100, long: 250, extreme: 500 },
-  mg:      { short: 50, medium: 150, long: 350, extreme: 550 },
-  cannon:  { short: 50, medium: 150, long: 350, extreme: 550 },
+  sport:   { short: 30, medium: 60,  long: 150, extreme: 300 },
+  sniper:  { short: 40, medium: 80,  long: 200, extreme: 400 },
+  shotgun: { short: 10, medium: 20,  long: 50,  extreme: 100 },
+  assault: { short: 15, medium: 40,  long: 100, extreme: 250 },
+  lmg:     { short: 20, medium: 40,  long: 80,  extreme: 150 },
+  mmg:     { short: 40, medium: 150, long: 300, extreme: 500 },
+  hmg:     { short: 40, medium: 150, long: 400, extreme: 800 },
+  cannon:  { short: 50, medium: 150, long: 450, extreme: 1300 },
+  // SSC p.59: the missile launcher table, extreme range extended to 5,000 m.
+  sam:     { short: 70, medium: 150, long: 450, extreme: 5000 },
   bow:     { short: 10, medium: 30,  long: 60,  extreme: 90 },
   pistolL: { short: 5,  medium: 15,  long: 30,  extreme: 50 },
   pistolH: { short: 5,  medium: 20,  long: 40,  extreme: 60 },
@@ -68,7 +79,7 @@ const AUG = "Part of the modular Steyr AUG-CSL system; the full package with all
 const WEAPONS = [
   // --- RIFLES (Sport) ---
   { name: "Ruger 100", conceal: 2, ammo: 5, ammoType: "rifle", mode: "SA", dmg: "7S", wt: 3.75, avail: "3/24 hrs", cost: 1300, index: 1, range: "sport", legality: "Legal", notes: "A dependable, fully legal sport hunting rifle — cheap, accurate, and a common first long-arm for runners on a budget. SSC." },
-  { name: "Steyr AUG-CSL SMG", conceal: 4, ammo: 40, ammoType: "smg", mode: "SA/BF", dmg: "6M", wt: 3.5, avail: "10/4 days", cost: 4500, index: 3, range: "assault", notes: "The submachine-gun configuration of the modular AUG-CSL bullpup: compact and controllable, swapped over from the same convertible chassis. " + AUG },
+  { name: "Steyr AUG-CSL SMG", conceal: 4, ammo: 40, ammoType: "smg", mode: "SA/BF", dmg: "6M", wt: 3.5, avail: "10/4 days", cost: 4500, index: 3, range: "smg", notes: "The submachine-gun configuration of the modular AUG-CSL bullpup: compact and controllable, swapped over from the same convertible chassis. " + AUG },
   { name: "Steyr AUG-CSL Carbine", conceal: 3, ammo: 40, ammoType: "rifle", mode: "SA/BF", dmg: "7S", wt: 3.75, avail: "10/4 days", cost: 4500, index: 3, range: "sport", notes: "The sporting/carbine setup of the AUG-CSL — a longer barrel and rifle reach in place of full-auto, all on the same modular frame. " + AUG },
   // --- RIFLES (Sniper) ---
   { name: "Walther MA-2100", conceal: 99, ammo: 10, ammoType: "rifle", mode: "SA", dmg: "14S", wt: 4.5, avail: "12/7 days", cost: 6500, index: 4, range: "sniper", notes: "A precision semi-automatic sniper rifle and the marksman's tool of choice for putting a single heavy round on target at long range. SSC." },
@@ -81,17 +92,17 @@ const WEAPONS = [
   { name: "Sakal vz 88V", conceal: 2, ammo: 35, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.5, avail: "5/36 hrs", cost: 1800, index: 2, range: "assault", notes: "An Eastern-bloc assault rifle: cheap, rugged, and plentiful on the surplus market — it just keeps running. SSC." },
   { name: "Steyr AUG-CSL Assault Rifle", conceal: 4, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 4, avail: "10/4 days", cost: 4500, index: 3, range: "assault", notes: "The assault-rifle configuration of the AUG-CSL — the chassis's most aggressive build, with the full single/burst/full-auto suite. " + AUG },
   // --- LIGHT MACHINE GUNS ---
-  { name: "Ares MP-LMG", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "BF/FA", dmg: "7S", wt: 7.5, avail: "6/5 days", cost: 2200, index: 2, range: "mg", notes: "A belt-fed light machine gun built to lay down sustained suppressing fire from a bipod or a sling. SSC." },
-  { name: "GE Vindicator Minigun", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "7S", wt: 15, avail: "24/14 days", cost: 12500, index: 2, range: "mg", notes: "An electric, multi-barrel minigun that vomits a literal wall of lead — a permanent 15-round recoil rate per Complex Action. Weight & cost confirmed from the body entry. SSC." },
-  { name: "Steyr AUG-CSL LMG", heavy: true, conceal: 99, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.5, avail: "10/4 days", cost: 4500, index: 3, range: "mg", notes: "The light-machine-gun configuration of the AUG-CSL — the heaviest, longest-barreled build on the modular frame. " + AUG },
+  { name: "Ares MP-LMG", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "BF/FA", dmg: "7S", wt: 7.5, avail: "6/5 days", cost: 2200, index: 2, range: "lmg", notes: "A belt-fed light machine gun built to lay down sustained suppressing fire from a bipod or a sling. SSC." },
+  { name: "GE Vindicator Minigun", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "7S", wt: 15, avail: "24/14 days", cost: 12500, index: 2, range: "lmg", notes: "An electric, multi-barrel minigun that vomits a literal wall of lead — a permanent 15-round recoil rate per Complex Action. Weight & cost confirmed from the body entry. SSC." },
+  { name: "Steyr AUG-CSL LMG", heavy: true, conceal: 99, ammo: 40, ammoType: "rifle", mode: "SA/BF/FA", dmg: "8M", wt: 5.5, avail: "10/4 days", cost: 4500, index: 3, range: "lmg", notes: "The light-machine-gun configuration of the AUG-CSL — the heaviest, longest-barreled build on the modular frame. " + AUG },
   // --- LASER WEAPONS ---
-  { name: "Ares MP Laser", heavy: true, conceal: 99, ammo: 20, ammoType: "powerpack", mode: "SA", dmg: "15M", wt: 30, avail: "NA", cost: 2500000, index: 0, range: "mg", legality: "Forbidden", notes: "An experimental man-portable laser fed by a 20-shot power pack — bleeding-edge, heavy, and effectively unobtainable at 2.5 million nuyen. SSC." },
+  { name: "Ares MP Laser", heavy: true, conceal: 99, ammo: 20, ammoType: "powerpack", mode: "SA", dmg: "15M", wt: 30, avail: "NA", cost: 2500000, index: 0, range: "sniper", legality: "Forbidden", notes: "An experimental man-portable laser fed by a 20-shot power pack — bleeding-edge, heavy, and effectively unobtainable at 2.5 million nuyen. SSC." },
   // --- HEAVY WEAPONS ---
-  { name: "FN MAG-5 MMG", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "9S", wt: 9.5, avail: "18/14 days", cost: 3200, index: 3, range: "mg", legality: "Forbidden", notes: "A belt-fed medium machine gun — a crew-served weapon meant to be mounted or hauled into a fixed position. SSC." },
-  { name: "Stoner-Ares M107", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "10S", wt: 12.5, avail: "18/14 days", cost: 5200, index: 3, range: "mg", legality: "Forbidden", notes: "A belt-fed heavy machine gun delivering brutal, sustained firepower from a tripod or vehicle mount. SSC." },
+  { name: "FN MAG-5 MMG", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "9S", wt: 9.5, avail: "18/14 days", cost: 3200, index: 3, range: "mmg", legality: "Forbidden", notes: "A belt-fed medium machine gun — a crew-served weapon meant to be mounted or hauled into a fixed position. SSC." },
+  { name: "Stoner-Ares M107", heavy: true, conceal: 99, ammo: 50, ammoType: "belt", mode: "FA", dmg: "10S", wt: 12.5, avail: "18/14 days", cost: 5200, index: 3, range: "hmg", legality: "Forbidden", notes: "A belt-fed heavy machine gun delivering brutal, sustained firepower from a tripod or vehicle mount. SSC." },
   { name: "Panther Assault Cannon", heavy: true, conceal: 99, ammo: 22, ammoType: "ac", mode: "SS", dmg: "18D", wt: 18, avail: "16/14 days", cost: 7200, index: 2, range: "cannon", legality: "Forbidden", notes: "A shoulder-fired assault cannon that lobs superplast warheads — the answer to armored vehicles, hardened cover, and angry trolls. SSC (pg-055)." },
   // --- ROCKETS / MISSILES ---
-  { name: "Surface-to-Air Missile (SAM)", heavy: true, conceal: 99, ammo: 1, ammoType: "missile", mode: "SS", dmg: "13D", wt: 1.5, avail: "18/21 days", cost: 2500, index: 4, range: "none", legality: "Forbidden", notes: "A shoulder-launched guided surface-to-air missile (Intelligence 4 guidance); resolved with the missile/launcher rules rather than standard range brackets. SSC." },
+  { name: "Surface-to-Air Missile (SAM)", heavy: true, conceal: 99, ammo: 1, ammoType: "missile", mode: "SS", dmg: "13D", wt: 1.5, avail: "18/21 days", cost: 2500, index: 4, range: "sam", legality: "Forbidden", notes: "A shoulder-launched guided surface-to-air missile (Intelligence 4 guidance); fired from a man-pack missile launcher; uses the Missile Launcher range brackets with extreme range out to 5,000 m (SSC p.59)." },
   // --- MELEE: Edged ---
   { name: "Ares Monosword", kind: "melee", conceal: 3, reach: 1, dmg: "(Str+3)M", wt: 2, avail: "4/24 hrs", cost: 1000, index: 1, legality: "Restricted", notes: "A monofilament-edged blade that shears through armor and flesh alike — the street samurai's signature steel. SSC." },
   { name: "Centurion Laser Axe", kind: "melee", conceal: 2, reach: 1, dmg: "(Str)S", wt: 5.2, avail: "6/48 hrs", cost: 3500, index: 2, legality: "Restricted", notes: "A powered axe with a superheated edge — as much a statement of intimidation as a weapon. SSC." },
@@ -121,7 +132,7 @@ const WEAPONS = [
   { name: "Colt Manhunter", conceal: 5, ammo: 16, ammoType: "pistol", mode: "SA", dmg: "9M", wt: 2.5, avail: "4/24 hrs", cost: 425, index: 1, range: "pistolH", legality: "Restricted", notes: "An affordable heavy pistol that punches well above its price tag — a lot of gun for the nuyen. SSC." },
   // --- SPECIAL WEAPONS ---
   { name: "Narcoject Pistol", conceal: 7, ammo: 5, ammoType: "dart", mode: "SA", dmg: "Special", wt: 1.5, avail: "6/2 days", cost: 600, index: 2, range: "pistolL", legality: "Restricted", notes: "A dart pistol that puts a target down without killing them — its effect is whatever toxin is loaded in the darts. SSC." },
-  { name: "Narcoject Rifle", conceal: 4, ammo: 10, ammoType: "dart", mode: "SA", dmg: "Special", wt: 3.25, avail: "8/2 days", cost: 1700, index: 2, range: "assault", legality: "Restricted", notes: "The long-range narcoject dart rifle — quiet, non-lethal at the GM's discretion, and dialed to the loaded toxin. SSC." },
+  { name: "Narcoject Rifle", conceal: 4, ammo: 10, ammoType: "dart", mode: "SA", dmg: "Special", wt: 3.25, avail: "8/2 days", cost: 1700, index: 2, range: "shotgun", legality: "Restricted", notes: "The long-range narcoject dart rifle — quiet, non-lethal at the GM's discretion, and dialed to the loaded toxin. SSC." },
   { name: "Net Gun (Medium)", conceal: 4, ammo: 4, ammoType: "net", mode: "SA", dmg: "Special", wt: 4, avail: "8/36 hrs", cost: 750, index: 2, range: "pistolL", legality: "Restricted", notes: "Fires a weighted net to entangle and immobilize a target rather than wound them (medium). SSC." },
   { name: "Net Gun (Large)", conceal: 3, ammo: 4, ammoType: "net", mode: "SA", dmg: "Special", wt: 4.5, avail: "8/36 hrs", cost: 1150, index: 2, range: "pistolL", legality: "Restricted", notes: "The heavier net gun — a larger, stronger net for bigger quarry. SSC." },
   // --- SUBMACHINE GUNS ---

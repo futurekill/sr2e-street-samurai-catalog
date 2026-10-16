@@ -26,8 +26,8 @@
     "ranges": {
       "short": 50,
       "medium": 150,
-      "long": 350,
-      "extreme": 550
+      "long": 450,
+      "extreme": 1300
     },
     "strengthMin": 0,
     "weight": 18,
