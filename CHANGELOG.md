@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.1 — 2026-10-16
 
 ### Fixed — range brackets follow the SR2 Weapon Range Table (core p.88)
 19 weapons had brackets from no row of the table, because the module's own range
@@ -19,7 +19,7 @@ Sourcebook Updates (p.279):
 - **Surface-to-Air Missile** had no ranges at all: the missile launcher table with
   extreme range out to 5,000 m (SSC p.59).
 
-Copies already on characters keep their old brackets; drag the weapon in again.
+With sr2e 0.104.2 or later, copies already in your world are corrected automatically when it loads (unless you edited the range by hand).
 
 ## 0.3.0 — 2026-07-28
 
