@@ -11,7 +11,7 @@ cost and Street Index was compared with the core book's SR2 conversion of this c
 - Everything else already matched. The **GE Vindicator** stays at 12,500¥ (SSC p.58):
   the appendix prints 2,500¥, but its cost column clips leading digits on that page.
 - Copies already on characters keep the old values; drag the weapon in again.
-- **"Sakal vz 88V" is the Samopal vz 88V**, as both the catalog's own table (p.98) and the
+- **"Sakal vz 88V" is the Samopal vz 88V**, as both the catalog's own table (p.108) and the
   core book's Sourcebook Updates name it. Same item, same id: links to it still work.
 
 ## 0.3.1 — 2026-10-16
