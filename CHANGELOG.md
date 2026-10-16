@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.2 — 2026-10-16
 
 ### Fixed — weapon stats checked against the core book's Sourcebook Updates (p.278–279)
 Every weapon's concealability, ammunition, firing modes, damage, weight, availability,
