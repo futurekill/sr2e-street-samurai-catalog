@@ -37,7 +37,7 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "Fires a weighted net to entangle and immobilize a target rather than wound them (medium). SSC."
+    "notes": "Fires a weighted net to entangle and immobilize a target rather than wound them (medium). A hit posts a net card (sr2e 0.105+): the target resists with Strength (+ Combat Pool) against TN 5 (normal net) or 8 (large), 3 when a normal net hits a large target, and needs more than twice the attacker's successes; an entangled target can't move and escapes once per turn, the TN falling by 1 per turn. Street Samurai Catalog p.72."
   },
   "effects": [],
   "flags": {},

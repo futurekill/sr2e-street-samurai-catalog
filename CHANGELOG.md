@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+- **Net Guns are automated** with sr2e 0.105 or later: a hit posts a net card the target resists from (Strength vs TN 5/8/3, p.72), and an entangled target can't move until it escapes (token HUD). The item notes now give the rule.
+
 ## 0.3.2 — 2026-10-16
 
 ### Fixed — weapon stats checked against the core book's Sourcebook Updates (p.278–279)
