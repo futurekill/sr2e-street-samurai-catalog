@@ -84,3 +84,6 @@ first**, LevelDB locks).
 - [ ] §0 and §1 green; §2 spot-checks pass for every pack.
 - [ ] Open `NEEDS-CAPTURE` items fixed or knowingly accepted (and noted in the
       release notes).
+
+## Implants arrive installed (2026-10-23)
+- [ ] In play (not character creation), drag one of this module's cyberware items onto a character: the Buy dialog shows the **Cybersurgery** section and Essence drops once it's bought.
