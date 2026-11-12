@@ -1,3 +1,6 @@
+// ⚠ DO NOT RE-RUN: packs-src is the source of truth since the art pass (this generator writes a placeholder img) and
+// the vehicle stats audit (2026-11-11: Speed holds the cruising speed, APilot -> autonav, book-page cites p.47/48);
+// system docs/VEHICLE-AUDIT.md. Kept for reference only.
 // Generate Street Samurai Catalog vehicles into packs-src/ssc-vehicles (Actor
 // type "vehicle"). Stats from the catalog's vehicle section (pg-042 Aurora,
 // pg-043 Viking), verified against the page renders. Descriptions are original

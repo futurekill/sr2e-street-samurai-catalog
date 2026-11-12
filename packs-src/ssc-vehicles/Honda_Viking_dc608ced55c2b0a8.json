@@ -7,24 +7,24 @@
     "vehicleType": "ground",
     "skill": "bike",
     "handling": 3,
-    "speed": 160,
+    "speed": 50,
     "acceleration": 0,
     "body": 4,
     "armor": 1,
     "signature": 3,
-    "pilot": 2,
+    "pilot": 0,
     "sensor": 0,
     "cargo": 0,
     "load": 0,
     "seating": "2",
     "cost": 17000,
     "availability": "",
-    "autonav": 0,
+    "autonav": 2,
     "conditionMonitor": {
       "value": 0,
       "max": 10
     },
-    "notes": "A full-size heavy motorcycle with reinforced, high-impact structure — power, presence, and a king-of-the-road silhouette. Speed 50/160 (cruising/maximum). Accepts 2 firmpoints (1,700¥ each) or 1 hardpoint (5,100¥). Acceleration not listed in the catalog. SSC (pg-043)."
+    "notes": "A full-size heavy motorcycle with reinforced, high-impact structure — power, presence, and a king-of-the-road silhouette. Speed 50/160 (cruising/maximum; Speed holds the cruising speed). Accepts 2 firmpoints (1,700¥ each) or 1 hardpoint (5,100¥). Acceleration not listed in the catalog. Street Samurai Catalog p.48 (PDF pg-043)."
   },
   "items": [],
   "effects": [],

@@ -7,24 +7,24 @@
     "vehicleType": "ground",
     "skill": "bike",
     "handling": 2,
-    "speed": 210,
+    "speed": 70,
     "acceleration": 0,
     "body": 1,
     "armor": 0,
     "signature": 4,
-    "pilot": 1,
+    "pilot": 0,
     "sensor": 0,
     "cargo": 0,
     "load": 0,
     "seating": "1",
     "cost": 15000,
     "availability": "",
-    "autonav": 0,
+    "autonav": 1,
     "conditionMonitor": {
       "value": 0,
       "max": 10
     },
-    "notes": "A low, sleek racing bike — the fastest two wheels on the street, built for pure speed and style with advanced ride-stabilization for its handling. Speed 70/210 (cruising/maximum). Cannot mount weapons (accepts no firmpoint or hardpoint). Acceleration not listed in the catalog. SSC (pg-042)."
+    "notes": "A low, sleek racing bike — the fastest two wheels on the street, built for pure speed and style with advanced ride-stabilization for its handling. Speed 70/210 (cruising/maximum; Speed holds the cruising speed). Cannot mount weapons (accepts no firmpoint or hardpoint). Acceleration not listed in the catalog. Street Samurai Catalog p.47 (PDF pg-042)."
   },
   "items": [],
   "effects": [],

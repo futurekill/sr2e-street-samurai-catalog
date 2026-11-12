@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.5 — 2026-11-11
+
+### Fixed
+- **Vehicle stats audit** (system docs/VEHICLE-AUDIT.md): the Suzuki Aurora and Honda Viking hold their cruising
+  speed (70, 50; they held the maximum) and their autopilot in Autonav; cites give the book page (p.47, p.48).
+
 ## 0.3.4 — 2026-10-23
 
 ### Fixed
