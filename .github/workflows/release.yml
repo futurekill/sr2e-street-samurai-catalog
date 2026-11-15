@@ -50,6 +50,7 @@ jobs:
       - name: Install dependencies & build packs
         run: |
           npm install --no-audit --no-fund
+          npm run validate
           npm run build-packs
           echo "✅ Built packs:"
           ls -1 packs/
