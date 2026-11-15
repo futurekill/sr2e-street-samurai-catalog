@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 — 2026-11-15
+
+### Added
+- The Surface-to-Air Missile carries its guidance data (kind, Intelligence) for Rigger 2 gunnery (sr2e 0.154.0, Part 4b).
+
 ## 0.3.5 — 2026-11-11
 
 ### Fixed
