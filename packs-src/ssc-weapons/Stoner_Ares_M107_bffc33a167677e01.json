@@ -37,7 +37,11 @@
     "streetIndex": 3,
     "equipped": false,
     "accessories": [],
-    "notes": "A belt-fed heavy machine gun delivering brutal, sustained firepower from a tripod or vehicle mount. SSC."
+    "notes": "A belt-fed heavy machine gun delivering brutal, sustained firepower from a tripod or vehicle mount. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "61"
+    }
   },
   "effects": [],
   "flags": {},

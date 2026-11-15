@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "A hold-out pistol built into the body — drawn faster than thought and impossible to frisk or disarm. Weapon stats per the gun; essence per the cybergun rules. SSC."
+    "notes": "A hold-out pistol built into the body — drawn faster than thought and impossible to frisk or disarm. Weapon stats per the gun; essence per the cybergun rules. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "86"
+    }
   },
   "effects": [],
   "flags": {},

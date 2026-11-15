@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Telescoping optical lenses that zoom in on distant targets — purely optical, so no scanner can tell they're in use. Level 1. SSC."
+    "notes": "Telescoping optical lenses that zoom in on distant targets — purely optical, so no scanner can tell they're in use. Level 1. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "85"
+    }
   },
   "effects": [],
   "flags": {},

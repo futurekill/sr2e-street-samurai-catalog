@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "A shoulder-fired assault cannon that lobs superplast warheads — the answer to armored vehicles, hardened cover, and angry trolls. SSC (pg-055)."
+    "notes": "A shoulder-fired assault cannon that lobs superplast warheads — the answer to armored vehicles, hardened cover, and angry trolls. SSC (pg-055).",
+    "citation": {
+      "book": "ssc",
+      "page": "60"
+    }
   },
   "effects": [],
   "flags": {},

@@ -14,7 +14,11 @@
     "equipped": false,
     "isLayered": false,
     "notes": "A beefed-up concealable vest, trading a little bulk for real stopping power. Street Index 0.9. SSC.",
-    "streetIndex": 0.9
+    "streetIndex": 0.9,
+    "citation": {
+      "book": "ssc",
+      "page": "41"
+    }
   },
   "effects": [],
   "flags": {},

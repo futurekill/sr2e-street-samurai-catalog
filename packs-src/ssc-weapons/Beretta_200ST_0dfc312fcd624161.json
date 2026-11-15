@@ -37,7 +37,11 @@
     "streetIndex": 1.5,
     "equipped": false,
     "accessories": [],
-    "notes": "A light pistol with a hidden trick: it can squeeze off one burst per Complex Action despite its size. SSC."
+    "notes": "A light pistol with a hidden trick: it can squeeze off one burst per Complex Action despite its size. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "19"
+    }
   },
   "effects": [],
   "flags": {},

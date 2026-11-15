@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Reshapes the user's voice on the fly to defeat voiceprint identification — a different person on every call. SSC."
+    "notes": "Reshapes the user's voice on the fly to defeat voiceprint identification — a different person on every call. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "79"
+    }
   },
   "effects": [],
   "flags": {},

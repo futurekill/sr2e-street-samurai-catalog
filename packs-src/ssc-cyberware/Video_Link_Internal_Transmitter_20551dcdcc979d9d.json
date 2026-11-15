@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "A built-in transmitter for the Video Link — no external rig to spot or seize. SSC."
+    "notes": "A built-in transmitter for the Video Link — no external rig to spot or seize. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "84"
+    }
   },
   "effects": [],
   "flags": {},

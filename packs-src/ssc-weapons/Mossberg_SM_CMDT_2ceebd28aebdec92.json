@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "The smartgun-integrated CMDT: the same hard-hitting frame with built-in targeting assistance for tighter patterns under pressure. SSC."
+    "notes": "The smartgun-integrated CMDT: the same hard-hitting frame with built-in targeting assistance for tighter patterns under pressure. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "26"
+    }
   },
   "effects": [],
   "flags": {},

@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "A machine pistol concealed inside the body — burst fire from an empty hand. SSC."
+    "notes": "A machine pistol concealed inside the body — burst fire from an empty hand. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "86"
+    }
   },
   "effects": [],
   "flags": {},

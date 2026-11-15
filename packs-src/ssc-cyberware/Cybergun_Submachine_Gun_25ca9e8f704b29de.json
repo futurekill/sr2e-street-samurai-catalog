@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "An implanted submachine gun — the body becomes the weapon, and the surprise. SSC."
+    "notes": "An implanted submachine gun — the body becomes the weapon, and the surprise. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "86"
+    }
   },
   "effects": [],
   "flags": {},

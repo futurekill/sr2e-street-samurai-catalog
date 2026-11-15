@@ -97,7 +97,11 @@
         "availability": "9/36 hrs",
         "streetIndex": "2"
       }
-    ]
+    ],
+    "citation": {
+      "book": "ssc",
+      "page": "77"
+    }
   },
   "effects": [],
   "flags": {},

@@ -25,7 +25,11 @@
       "reaction": 2,
       "initiativeDice": 0
     },
-    "notes": "Reaction-boosting bodyware, level 2 — the wired runner's affordable edge. SSC."
+    "notes": "Reaction-boosting bodyware, level 2 — the wired runner's affordable edge. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "87"
+    }
   },
   "effects": [],
   "flags": {},

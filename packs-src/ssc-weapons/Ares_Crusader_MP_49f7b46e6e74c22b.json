@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "A compact machine pistol pairing burst fire with a generous magazine — a lot of noise from a small package. SSC."
+    "notes": "A compact machine pistol pairing burst fire with a generous magazine — a lot of noise from a small package. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "16"
+    }
   },
   "effects": [],
   "flags": {},

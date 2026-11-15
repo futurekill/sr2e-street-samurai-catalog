@@ -25,7 +25,11 @@
       "reaction": 3,
       "initiativeDice": 0
     },
-    "notes": "Top-grade boosted reflexes, level 3 — fast and cheap, but the essence cost bites hard. SSC."
+    "notes": "Top-grade boosted reflexes, level 3 — fast and cheap, but the essence cost bites hard. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "87"
+    }
   },
   "effects": [],
   "flags": {},

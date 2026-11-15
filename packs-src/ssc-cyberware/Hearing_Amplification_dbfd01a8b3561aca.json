@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Cyberears tuned to pull a whisper out of a noisy room or catch a safe's tumblers falling. SSC."
+    "notes": "Cyberears tuned to pull a whisper out of a noisy room or catch a safe's tumblers falling. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "78"
+    }
   },
   "effects": [],
   "flags": {},

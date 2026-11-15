@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "A heavy pistol built into a limb — serious stopping power that never shows on a scanner's silhouette. SSC."
+    "notes": "A heavy pistol built into a limb — serious stopping power that never shows on a scanner's silhouette. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "86"
+    }
   },
   "effects": [],
   "flags": {},

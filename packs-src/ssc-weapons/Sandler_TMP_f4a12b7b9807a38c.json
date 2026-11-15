@@ -37,7 +37,11 @@
     "streetIndex": 1,
     "equipped": false,
     "accessories": [],
-    "notes": "A compact, cheap submachine gun — small enough to tuck away, mean enough to matter. SSC."
+    "notes": "A compact, cheap submachine gun — small enough to tuck away, mean enough to matter. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "32"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "A telescoping baton that delivers an incapacitating electric jolt on contact (8S Stun). SSC."
+    "notes": "A telescoping baton that delivers an incapacitating electric jolt on contact (8S Stun). SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "8"
+    }
   },
   "effects": [],
   "flags": {},

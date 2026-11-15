@@ -37,7 +37,11 @@
     "streetIndex": 1,
     "equipped": false,
     "accessories": [],
-    "notes": "A rugged selective-fire combat shotgun — devastating in close quarters and a reliable door-breaker. SSC."
+    "notes": "A rugged selective-fire combat shotgun — devastating in close quarters and a reliable door-breaker. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "26"
+    }
   },
   "effects": [],
   "flags": {},

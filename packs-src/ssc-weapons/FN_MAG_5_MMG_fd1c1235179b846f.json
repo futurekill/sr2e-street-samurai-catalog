@@ -37,7 +37,11 @@
     "streetIndex": 3,
     "equipped": false,
     "accessories": [],
-    "notes": "A belt-fed medium machine gun — a crew-served weapon meant to be mounted or hauled into a fixed position. SSC."
+    "notes": "A belt-fed medium machine gun — a crew-served weapon meant to be mounted or hauled into a fixed position. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "57"
+    }
   },
   "effects": [],
   "flags": {},

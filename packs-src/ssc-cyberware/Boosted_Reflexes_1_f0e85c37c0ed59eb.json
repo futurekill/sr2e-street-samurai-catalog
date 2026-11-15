@@ -25,7 +25,11 @@
       "reaction": 1,
       "initiativeDice": 0
     },
-    "notes": "A budget reaction booster — not as smooth as wired reflexes, but a fraction of the price and essence. Level 1. SSC."
+    "notes": "A budget reaction booster — not as smooth as wired reflexes, but a fraction of the price and essence. Level 1. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "87"
+    }
   },
   "effects": [],
   "flags": {},

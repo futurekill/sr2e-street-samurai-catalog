@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "An implanted shotgun — devastating at the point-blank ranges where it's deployed. SSC."
+    "notes": "An implanted shotgun — devastating at the point-blank ranges where it's deployed. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "86"
+    }
   },
   "effects": [],
   "flags": {},

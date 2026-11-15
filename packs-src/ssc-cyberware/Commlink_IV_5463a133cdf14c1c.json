@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "An implanted radio transceiver with longer reach and clearer signal. Rating IV. SSC."
+    "notes": "An implanted radio transceiver with longer reach and clearer signal. Rating IV. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "76"
+    }
   },
   "effects": [],
   "flags": {},

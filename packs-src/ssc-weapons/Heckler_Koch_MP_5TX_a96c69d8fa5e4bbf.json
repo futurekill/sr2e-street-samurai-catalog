@@ -37,7 +37,11 @@
     "streetIndex": 1,
     "equipped": false,
     "accessories": [],
-    "notes": "A refined, accurate SMG and a corporate-security standby the world over. SSC."
+    "notes": "A refined, accurate SMG and a corporate-security standby the world over. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "30"
+    }
   },
   "effects": [],
   "flags": {},

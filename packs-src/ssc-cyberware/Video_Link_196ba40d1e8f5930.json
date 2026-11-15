@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Records and transmits everything the user sees — a walking surveillance camera behind a pair of ordinary eyes. SSC."
+    "notes": "Records and transmits everything the user sees — a walking surveillance camera behind a pair of ordinary eyes. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "84"
+    }
   },
   "effects": [],
   "flags": {},

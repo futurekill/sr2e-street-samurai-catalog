@@ -19,7 +19,11 @@
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
     "notes": "A handheld strobe that hammers the vision of anyone looking at it — Special. Street Index 1. SSC. Street Index 1 per the core book Sourcebook Updates table, p.280.",
-    "streetIndex": 1
+    "streetIndex": 1,
+    "citation": {
+      "book": "sr2",
+      "page": "280"
+    }
   },
   "effects": [],
   "flags": {},

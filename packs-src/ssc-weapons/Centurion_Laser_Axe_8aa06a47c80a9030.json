@@ -37,7 +37,11 @@
     "streetIndex": 0.5,
     "equipped": false,
     "accessories": [],
-    "notes": "A powered axe with a superheated edge — as much a statement of intimidation as a weapon. SSC."
+    "notes": "A powered axe with a superheated edge — as much a statement of intimidation as a weapon. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "7"
+    }
   },
   "effects": [],
   "flags": {},

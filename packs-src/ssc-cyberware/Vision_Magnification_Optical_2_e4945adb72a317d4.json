@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Optical (sensor-invisible) telescopic magnification, level 2. SSC."
+    "notes": "Optical (sensor-invisible) telescopic magnification, level 2. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "85"
+    }
   },
   "effects": [],
   "flags": {},

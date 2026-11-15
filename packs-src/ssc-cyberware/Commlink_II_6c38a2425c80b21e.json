@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "An implanted radio transceiver — hands-free, silent, and always on. Rating II. SSC."
+    "notes": "An implanted radio transceiver — hands-free, silent, and always on. Rating II. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "76"
+    }
   },
   "effects": [],
   "flags": {},

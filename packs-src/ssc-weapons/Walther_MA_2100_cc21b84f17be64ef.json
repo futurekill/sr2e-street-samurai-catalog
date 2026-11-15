@@ -37,7 +37,11 @@
     "streetIndex": 4,
     "equipped": false,
     "accessories": [],
-    "notes": "A precision semi-automatic sniper rifle and the marksman's tool of choice for putting a single heavy round on target at long range. SSC."
+    "notes": "A precision semi-automatic sniper rifle and the marksman's tool of choice for putting a single heavy round on target at long range. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "28"
+    }
   },
   "effects": [],
   "flags": {},

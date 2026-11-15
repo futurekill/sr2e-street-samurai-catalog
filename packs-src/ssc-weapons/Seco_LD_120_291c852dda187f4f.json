@@ -37,7 +37,11 @@
     "streetIndex": 0.8,
     "equipped": false,
     "accessories": [],
-    "notes": "A cheap, no-frills light pistol — disposable and forgettable, which is exactly the point. SSC."
+    "notes": "A cheap, no-frills light pistol — disposable and forgettable, which is exactly the point. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "24"
+    }
   },
   "effects": [],
   "flags": {},

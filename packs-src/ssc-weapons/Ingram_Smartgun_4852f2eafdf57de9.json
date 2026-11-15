@@ -37,7 +37,11 @@
     "streetIndex": 1,
     "equipped": false,
     "accessories": [],
-    "notes": "A submachine gun with a factory-integral smartgun system — point-and-hit firepower for the wired runner. SSC."
+    "notes": "A submachine gun with a factory-integral smartgun system — point-and-hit firepower for the wired runner. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "31"
+    }
   },
   "effects": [],
   "flags": {},

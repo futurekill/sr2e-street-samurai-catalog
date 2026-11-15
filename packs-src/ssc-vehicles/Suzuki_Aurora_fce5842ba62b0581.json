@@ -24,7 +24,11 @@
       "value": 0,
       "max": 10
     },
-    "notes": "A low, sleek racing bike — the fastest two wheels on the street, built for pure speed and style with advanced ride-stabilization for its handling. Speed 70/210 (cruising/maximum; Speed holds the cruising speed). Cannot mount weapons (accepts no firmpoint or hardpoint). Acceleration not listed in the catalog. Street Samurai Catalog p.47 (PDF pg-042)."
+    "notes": "A low, sleek racing bike — the fastest two wheels on the street, built for pure speed and style with advanced ride-stabilization for its handling. Speed 70/210 (cruising/maximum; Speed holds the cruising speed). Cannot mount weapons (accepts no firmpoint or hardpoint). Acceleration not listed in the catalog. Street Samurai Catalog p.47 (PDF pg-042).",
+    "citation": {
+      "book": "ssc",
+      "page": "47"
+    }
   },
   "items": [],
   "effects": [],

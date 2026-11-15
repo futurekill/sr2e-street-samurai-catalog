@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "A brutal two-handed combat axe; its reverse thrusting point does (Str+2)L at Reach 0. SSC."
+    "notes": "A brutal two-handed combat axe; its reverse thrusting point does (Str+2)L at Reach 0. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "12"
+    }
   },
   "effects": [],
   "flags": {},

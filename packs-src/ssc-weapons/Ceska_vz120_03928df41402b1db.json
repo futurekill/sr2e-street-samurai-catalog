@@ -37,7 +37,11 @@
     "streetIndex": 0.8,
     "equipped": false,
     "accessories": [],
-    "notes": "An inexpensive, highly concealable light pistol that turns up in coat pockets all over the sprawl. SSC."
+    "notes": "An inexpensive, highly concealable light pistol that turns up in coat pockets all over the sprawl. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "22"
+    }
   },
   "effects": [],
   "flags": {},

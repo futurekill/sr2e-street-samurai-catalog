@@ -83,7 +83,11 @@
         "availability": "10/48 hrs",
         "streetIndex": "1.75"
       }
-    ]
+    ],
+    "citation": {
+      "book": "ssc",
+      "page": "81"
+    }
   },
   "effects": [],
   "flags": {},

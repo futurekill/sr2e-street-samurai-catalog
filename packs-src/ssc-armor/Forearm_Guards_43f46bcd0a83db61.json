@@ -14,7 +14,11 @@
     "equipped": false,
     "isLayered": false,
     "notes": "Hardened guards strapped to the forearms — meant for turning blades and blows, not bullets. Street Index 0.75. SSC.",
-    "streetIndex": 0.75
+    "streetIndex": 0.75,
+    "citation": {
+      "book": "ssc",
+      "page": "39"
+    }
   },
   "effects": [],
   "flags": {},

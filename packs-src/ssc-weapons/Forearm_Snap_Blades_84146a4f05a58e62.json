@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "Spring-loaded blades concealed along the forearm that snap out at a flick of the wrist. SSC."
+    "notes": "Spring-loaded blades concealed along the forearm that snap out at a flick of the wrist. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "9"
+    }
   },
   "effects": [],
   "flags": {},

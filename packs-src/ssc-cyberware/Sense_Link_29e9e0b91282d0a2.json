@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "A full simsense link that broadcasts or receives the user's complete sensory feed — the ultimate, and ultimately invasive, wire. SSC."
+    "notes": "A full simsense link that broadcasts or receives the user's complete sensory feed — the ultimate, and ultimately invasive, wire. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "83"
+    }
   },
   "effects": [],
   "flags": {},

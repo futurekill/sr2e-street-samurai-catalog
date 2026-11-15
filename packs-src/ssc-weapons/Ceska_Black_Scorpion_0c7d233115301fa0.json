@@ -37,7 +37,11 @@
     "streetIndex": 2,
     "equipped": false,
     "accessories": [],
-    "notes": "A brutal little machine pistol that trades fine control for a sudden wall of lead. SSC."
+    "notes": "A brutal little machine pistol that trades fine control for a sudden wall of lead. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "21"
+    }
   },
   "effects": [],
   "flags": {},

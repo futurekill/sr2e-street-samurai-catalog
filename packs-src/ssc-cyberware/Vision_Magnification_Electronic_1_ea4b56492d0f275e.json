@@ -25,7 +25,11 @@
       "reaction": 0,
       "initiativeDice": 0
     },
-    "notes": "Electronic zoom for the cybereyes — sharper than optics, but it registers as active gear to a scanner. Level 1. SSC."
+    "notes": "Electronic zoom for the cybereyes — sharper than optics, but it registers as active gear to a scanner. Level 1. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "85"
+    }
   },
   "effects": [],
   "flags": {},

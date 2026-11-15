@@ -55,7 +55,11 @@
         "availability": "6/10 days",
         "streetIndex": "1"
       }
-    ]
+    ],
+    "citation": {
+      "book": "ssc",
+      "page": "88"
+    }
   },
   "effects": [],
   "flags": {},

@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 2,
     "requiresSmartgun": false,
-    "notes": "A barrel-mounted gas-vent that bleeds off muzzle climb for tighter bursts (RC 2). Street Index 0.9. SSC."
+    "notes": "A barrel-mounted gas-vent that bleeds off muzzle climb for tighter bursts (RC 2). Street Index 0.9. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "38"
+    }
   },
   "effects": [],
   "flags": {},

@@ -42,7 +42,11 @@
     "streetIndex": 4,
     "equipped": false,
     "accessories": [],
-    "notes": "A shoulder-launched guided surface-to-air missile (Intelligence 4 guidance); fired from a man-pack missile launcher; uses the Missile Launcher range brackets with extreme range out to 5,000 m (SSC p.59)."
+    "notes": "A shoulder-launched guided surface-to-air missile (Intelligence 4 guidance); fired from a man-pack missile launcher; uses the Missile Launcher range brackets with extreme range out to 5,000 m (SSC p.59).",
+    "citation": {
+      "book": "ssc",
+      "page": "59"
+    }
   },
   "effects": [],
   "flags": {},

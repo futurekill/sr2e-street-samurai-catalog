@@ -37,7 +37,11 @@
     "streetIndex": 3,
     "equipped": false,
     "accessories": [],
-    "notes": "A caseless-ammunition assault rifle — high capacity, full-auto capable, and built to exacting German tolerances. SSC."
+    "notes": "A caseless-ammunition assault rifle — high capacity, full-auto capable, and built to exacting German tolerances. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "51"
+    }
   },
   "effects": [],
   "flags": {},

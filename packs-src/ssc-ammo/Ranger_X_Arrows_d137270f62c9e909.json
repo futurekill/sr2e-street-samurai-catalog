@@ -13,7 +13,11 @@
     "cost": 18,
     "notes": "Precision-fletched arrows for the Ranger-X Bow — silent, deniable, and recoverable; damage is the bow's. 18¥ each. Street Index 1. SSC (pg-102).",
     "streetIndex": 1,
-    "concealability": 4
+    "concealability": 4,
+    "citation": {
+      "book": "ssc",
+      "page": "15"
+    }
   },
   "effects": [],
   "flags": {},

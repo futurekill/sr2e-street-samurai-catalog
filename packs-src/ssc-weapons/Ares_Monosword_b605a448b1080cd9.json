@@ -37,7 +37,11 @@
     "streetIndex": 1,
     "equipped": false,
     "accessories": [],
-    "notes": "A monofilament-edged blade that shears through armor and flesh alike — the street samurai's signature steel. SSC."
+    "notes": "A monofilament-edged blade that shears through armor and flesh alike — the street samurai's signature steel. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "6"
+    }
   },
   "effects": [],
   "flags": {},

@@ -37,7 +37,11 @@
     "streetIndex": 0,
     "equipped": false,
     "accessories": [],
-    "notes": "An experimental man-portable laser fed by a 20-shot power pack — bleeding-edge, heavy, and effectively unobtainable at 2.5 million nuyen. SSC."
+    "notes": "An experimental man-portable laser fed by a 20-shot power pack — bleeding-edge, heavy, and effectively unobtainable at 2.5 million nuyen. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "54"
+    }
   },
   "effects": [],
   "flags": {},

@@ -18,7 +18,11 @@
     "combatTnMod": 0,
     "accessoryRecoilComp": 3,
     "requiresSmartgun": false,
-    "notes": "A heavier barrel gas-vent for serious recoil control (RC 3). Concealability −1. Street Index 0.9. SSC."
+    "notes": "A heavier barrel gas-vent for serious recoil control (RC 3). Concealability −1. Street Index 0.9. SSC.",
+    "citation": {
+      "book": "ssc",
+      "page": "38"
+    }
   },
   "effects": [],
   "flags": {},

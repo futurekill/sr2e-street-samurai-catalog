@@ -19,7 +19,11 @@
     "accessoryRecoilComp": 0,
     "requiresSmartgun": false,
     "notes": "A smartlink-style targeting link for grenade launchers, walking rounds onto the mark (Rating 1). Street Index 2. SSC. Street Index 2 per the core book Sourcebook Updates table, p.280.",
-    "streetIndex": 2
+    "streetIndex": 2,
+    "citation": {
+      "book": "sr2",
+      "page": "280"
+    }
   },
   "effects": [],
   "flags": {},
