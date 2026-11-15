@@ -2,7 +2,7 @@
   "id": "sr2e-street-samurai-catalog",
   "title": "Shadowrun 2E: Street Samurai Catalog",
   "description": "Gear, weapons, armor, and cyberware from the Street Samurai Catalog (FASA 7104a) as compendia for the Shadowrun 2nd Edition system.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -13,7 +13,7 @@
         "id": "sr2e",
         "type": "system",
         "compatibility": {
-          "minimum": "0.9.2"
+          "minimum": "0.156.0"
         }
       }
     ]
